@@ -1,0 +1,43 @@
+SWEN 424, 2017, Trimester 2
+
+Project
+Students are expected to choose a topic and then (per group)
+create a 10-15 pages report (including diagrams, figures, screenshots, references, etc.)
+the report must contain a section explaining what part of the work has been carried out by which team member
+The default topic, the creation of a (domain-specific) language, involves the following steps:
+Form a group (group size will be announced).
+Choose a metacase tool/approach.
+Choose a language.
+Create the abstract syntax (concepts/constructs) for the language.
+Create the concrete syntax (presentation) for the language.
+Create the semantics for the language (by defining a transformation).
+Submit a presentation and a report containing
+A brief introduction to the tool and how you used it.
+What the language you created is about.
+How your language definition (including the semantics) looks like.
+A criticism of the tool and your own result.
+You may consult the "A Visual Notation..." paper for the default choice of language to define. The abstract syntax is that of (a subset of) PROLOG. If you have any questions regarding the language, please consult the forum.
+Marking
+
+Good to excellent reports will show evidence of:
+structured content
+use of media, such as screenshots
+concise style, yet comprehensive information
+lucid explanation of the project idea
+presentation and explanation of project artefacts
+non-trivial level of ambition regarding the meaning (utility) of the models.
+critical evaluation (positive and negative points) of the tool(s) used
+appropriate use and citation of sources
+10--15 pages
+Submission
+
+The deadline for handing in the research report and the presentation is the 30/9/2017. Submit the presentation, report, and the artefacts created with the metacase tool.
+Tools
+
+MPS (JetBrains)
+Professional DSL development environment. Supports textual and visual syntax (even in combination). Tutorials are available in written form and as videos.
+Platform: Windows.
+...
+BYO (Bring Your Own)
+You may choose any other tool/approach, such as an Eclipse based solution using EMF (Eclipse Modelling Framework) based models for openArchitectureWare (an MDD generator framework implemented in Java) or the ATL (ATLAS Transformation Language), as long as you tell me about it.
+Note that Windows based tools can also be executed from netBSD machines by letting them run on one of the two Windows servers.
