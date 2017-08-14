@@ -7,11 +7,11 @@ create a 10-15 pages report (including diagrams, figures, screenshots, reference
 the report must contain a section explaining what part of the work has been carried out by which team member
 The default topic, the creation of a (domain-specific) language, involves the following steps:
 Form a group (group size will be announced).
-Choose a metacase tool/approach.
-Choose a language.
-Create the abstract syntax (concepts/constructs) for the language.
-Create the concrete syntax (presentation) for the language.
-Create the semantics for the language (by defining a transformation).
+##### Choose a metacase tool/approach.
+##### Choose a language.
+##### Create the abstract syntax (concepts/constructs) for the language.
+##### Create the concrete syntax (presentation) for the language.
+##### Create the semantics for the language (by defining a transformation).
 Submit a presentation and a report containing
 A brief introduction to the tool and how you used it.
 What the language you created is about.
