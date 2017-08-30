@@ -100,5 +100,77 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="3yAWtIdynEH">
+    <property role="3GE5qa" value="Attributes" />
+    <ref role="1M2myG" to="bhbg:6BM8RNMeL1H" resolve="styleNode" />
+    <node concept="9S07l" id="3yAWtIdynEI" role="9Vyp8">
+      <node concept="3clFbS" id="3yAWtIdynEJ" role="2VODD2">
+        <node concept="3clFbF" id="3yAWtIdyo$7" role="3cqZAp">
+          <node concept="2OqwBi" id="3yAWtIdyoOE" role="3clFbG">
+            <node concept="nLn13" id="3yAWtIdyo$6" role="2Oq$k0" />
+            <node concept="1mIQ4w" id="3yAWtIdyqvA" role="2OqNvi">
+              <node concept="chp4Y" id="3yAWtIdyqG2" role="cj9EA">
+                <ref role="cht4Q" to="bhbg:6BM8RNMeL1E" resolve="elementInterface" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="3yAWtIdyA1b">
+    <property role="3GE5qa" value="Attributes" />
+    <ref role="1M2myG" to="bhbg:6BM8RNMeL1I" resolve="classNode" />
+    <node concept="9S07l" id="3yAWtIdyA1c" role="9Vyp8">
+      <node concept="3clFbS" id="3yAWtIdyA1d" role="2VODD2">
+        <node concept="3clFbF" id="3yAWtIdyA8m" role="3cqZAp">
+          <node concept="2OqwBi" id="3yAWtIdyAno" role="3clFbG">
+            <node concept="nLn13" id="3yAWtIdyA8l" role="2Oq$k0" />
+            <node concept="1mIQ4w" id="3yAWtIdyAHx" role="2OqNvi">
+              <node concept="chp4Y" id="3yAWtIdyATX" role="cj9EA">
+                <ref role="cht4Q" to="bhbg:6BM8RNMeL1E" resolve="elementInterface" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="3yAWtIdyBdi">
+    <property role="3GE5qa" value="Attributes" />
+    <ref role="1M2myG" to="bhbg:6BM8RNMeL1J" resolve="idNode" />
+    <node concept="9S07l" id="3yAWtIdyBdj" role="9Vyp8">
+      <node concept="3clFbS" id="3yAWtIdyBdk" role="2VODD2">
+        <node concept="3clFbF" id="3yAWtIdyBkt" role="3cqZAp">
+          <node concept="2OqwBi" id="3yAWtIdyBzv" role="3clFbG">
+            <node concept="nLn13" id="3yAWtIdyBks" role="2Oq$k0" />
+            <node concept="1mIQ4w" id="3yAWtIdyBTC" role="2OqNvi">
+              <node concept="chp4Y" id="3yAWtIdyC64" role="cj9EA">
+                <ref role="cht4Q" to="bhbg:6BM8RNMeL1E" resolve="elementInterface" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="3yAWtIdyCpp">
+    <property role="3GE5qa" value="Attributes" />
+    <ref role="1M2myG" to="bhbg:6BM8RNMeL1K" resolve="textNode" />
+    <node concept="9S07l" id="3yAWtIdyCpq" role="9Vyp8">
+      <node concept="3clFbS" id="3yAWtIdyCpr" role="2VODD2">
+        <node concept="3clFbF" id="3yAWtIdyCw$" role="3cqZAp">
+          <node concept="2OqwBi" id="3yAWtIdyD2H" role="3clFbG">
+            <node concept="nLn13" id="3yAWtIdyCwz" role="2Oq$k0" />
+            <node concept="1mIQ4w" id="3yAWtIdyDoQ" role="2OqNvi">
+              <node concept="chp4Y" id="3yAWtIdyD_i" role="cj9EA">
+                <ref role="cht4Q" to="bhbg:6BM8RNMeL1E" resolve="elementInterface" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
