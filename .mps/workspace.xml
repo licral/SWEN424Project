@@ -6,7 +6,19 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0346542b-4e21-4f58-804b-800ce926e725" name="Default" comment="" />
+    <list default="true" id="0346542b-4e21-4f58-804b-800ce926e725" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HTMLmodel/classes_gen/HTMLmodel/constraints/ConstraintsAspectDescriptor.class" afterPath="$PROJECT_DIR$/languages/HTMLmodel/classes_gen/HTMLmodel/constraints/ConstraintsAspectDescriptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HTMLmodel/classes_gen/HTMLmodel/constraints/trace.info" afterPath="$PROJECT_DIR$/languages/HTMLmodel/classes_gen/HTMLmodel/constraints/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HTMLmodel/models/constraints.mps" afterPath="$PROJECT_DIR$/languages/HTMLmodel/models/constraints.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HTMLmodel/source_gen.caches/HTMLmodel/constraints/dependencies" afterPath="$PROJECT_DIR$/languages/HTMLmodel/source_gen.caches/HTMLmodel/constraints/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HTMLmodel/source_gen.caches/HTMLmodel/constraints/generated" afterPath="$PROJECT_DIR$/languages/HTMLmodel/source_gen.caches/HTMLmodel/constraints/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HTMLmodel/source_gen.caches/HTMLmodel/generated" afterPath="$PROJECT_DIR$/languages/HTMLmodel/source_gen.caches/HTMLmodel/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HTMLmodel/source_gen/HTMLmodel/constraints/ConstraintsAspectDescriptor.java" afterPath="$PROJECT_DIR$/languages/HTMLmodel/source_gen/HTMLmodel/constraints/ConstraintsAspectDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/HTMLmodel/source_gen/HTMLmodel/constraints/trace.info" afterPath="$PROJECT_DIR$/languages/HTMLmodel/source_gen/HTMLmodel/constraints/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Test/models/webpage.mps" afterPath="$PROJECT_DIR$/solutions/Test/models/webpage.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Test/source_gen.caches/Test/webpage/generated" afterPath="$PROJECT_DIR$/solutions/Test/source_gen.caches/Test/webpage/generated" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +32,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="79b1c154-dda1-419f-b813-198c9d45f338/r:2e178c33-b507-4dd4-8edc-155609f152ed(TempModule79b1c154-dda1-419f-b813-198c9d45f338/TempModel_53365204422072)">
+            <model ref="d61dd869-27dc-4466-9478-474a860ed2e1/r:9858a0dd-5056-4a9b-aeb1-af1868cb6e39(TempModuled61dd869-27dc-4466-9478-474a860ed2e1/TempModel_54713725011252)">
               <persistence version="9" />
               <languages>
                 <use id="de1ad86d-6e50-4a02-b306-d4d17f64c375" name="jetbrains.mps.console.base" version="0" />
@@ -54,13 +66,13 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="6BM8RNMeYxr">
-                <node concept="3balQm" id="6BM8RNMeYxs" role="aymYE" />
-                <node concept="2Clz$F" id="6BM8RNMeYxt" role="aymYO">
+              <node concept="aymSD" id="6BM8RNMeYI1">
+                <node concept="3balQm" id="6BM8RNMeYI2" role="aymYE" />
+                <node concept="2Clz$F" id="6BM8RNMeYI3" role="aymYO">
                   <property role="TrG5h" value="CommandHolder" />
                 </node>
-                <node concept="2_V_lH" id="6BM8RNMeYxu" role="1PhJh3">
-                  <ref role="2_V_lI" node="6BM8RNMeYxt" resolve="CommandHolder" />
+                <node concept="2_V_lH" id="6BM8RNMeYI4" role="1PhJh3">
+                  <ref role="2_V_lI" node="6BM8RNMeYI3" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -105,7 +117,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:4167242e-6a56-478f-99c7-46c05a453b44(HTMLmodel.constraints)/7634203337893301650" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:81f25dd4-1d5d-4c55-bd25-dfb63f69e52e(Test.webpage)/7634203337893325011" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -139,7 +151,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:4167242e-6a56-478f-99c7-46c05a453b44(HTMLmodel.constraints)/7634203337893301650" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:81f25dd4-1d5d-4c55-bd25-dfb63f69e52e(Test.webpage)/7634203337893325011" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -173,7 +185,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:4167242e-6a56-478f-99c7-46c05a453b44(HTMLmodel.constraints)/7634203337893301650" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:81f25dd4-1d5d-4c55-bd25-dfb63f69e52e(Test.webpage)/7634203337893325011" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -186,22 +198,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="relNode" pinned="false" current-in-tab="true">
+      <file leaf-file-name="relNode" pinned="false" current-in-tab="false">
         <entry file="mps://node://HTMLmodel/HTMLmodel.structure/relNode">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
               <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="159" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="empty_canBeAncestor" cellNumber="0" isInList="false">
-                      <node node_reference="r:4167242e-6a56-478f-99c7-46c05a453b44(HTMLmodel.constraints)/7634203337893301650" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
+                <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
                 <foldable>
@@ -213,7 +215,7 @@
                 </foldable>
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:4167242e-6a56-478f-99c7-46c05a453b44(HTMLmodel.constraints)/7634203337893301650" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:81f25dd4-1d5d-4c55-bd25-dfb63f69e52e(Test.webpage)/7634203337893325011" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -226,22 +228,49 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="html" pinned="false" current-in-tab="true">
+        <entry file="mps://node://Test/Test.webpage/html">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="83">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="55" />
+                    <property name="caretXRelative" value="8" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="constant_5" cellNumber="0" isInList="false">
+                      <node node_reference="r:81f25dd4-1d5d-4c55-bd25-dfb63f69e52e(Test.webpage)/7634203337893325011" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers>
+                  <errorMarker text="" propertyCell="true" cellId="property_name" cellNumber="0" isInList="false">
+                    <node node_reference="r:81f25dd4-1d5d-4c55-bd25-dfb63f69e52e(Test.webpage)/7634203337893301628" />
+                  </errorMarker>
+                </errorMarkers>
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:81f25dd4-1d5d-4c55-bd25-dfb63f69e52e(Test.webpage)/7634203337893325011" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints />
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="typeNode" pinned="false" current-in-tab="false">
         <entry file="mps://node://HTMLmodel/HTMLmodel.structure/typeNode">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
               <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="159" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="empty_canBeAncestor" cellNumber="0" isInList="false">
-                      <node node_reference="r:4167242e-6a56-478f-99c7-46c05a453b44(HTMLmodel.constraints)/7634203337893327777" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
+                <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
                 <foldable>
@@ -253,7 +282,7 @@
                 </foldable>
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:4167242e-6a56-478f-99c7-46c05a453b44(HTMLmodel.constraints)/7634203337893301650" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:81f25dd4-1d5d-4c55-bd25-dfb63f69e52e(Test.webpage)/7634203337893325011" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -271,17 +300,7 @@
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
               <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="312" />
-                    <property name="caretXRelative" value="8" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_hebcrg_d0" cellNumber="0" isInList="false">
-                      <node node_reference="r:4167242e-6a56-478f-99c7-46c05a453b44(HTMLmodel.constraints)/7634203337893334737" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
+                <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
                 <foldable>
@@ -291,15 +310,9 @@
                     </cellIdElement>
                   </collapsedElement>
                 </foldable>
-                <restoreAlways>
-                  <collapsedElement isCollapsed="false">
-                    <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
-                      <node node_reference="r:4167242e-6a56-478f-99c7-46c05a453b44(HTMLmodel.constraints)/7634203337893332264" />
-                    </cellIdElement>
-                  </collapsedElement>
-                </restoreAlways>
+                <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:4167242e-6a56-478f-99c7-46c05a453b44(HTMLmodel.constraints)/7634203337893301650" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:81f25dd4-1d5d-4c55-bd25-dfb63f69e52e(Test.webpage)/7634203337893325011" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -333,7 +346,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:4167242e-6a56-478f-99c7-46c05a453b44(HTMLmodel.constraints)/7634203337893301650" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:81f25dd4-1d5d-4c55-bd25-dfb63f69e52e(Test.webpage)/7634203337893325011" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -347,6 +360,9 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MPSBookmarkManager">
     <option name="myBookmarkInfos">
@@ -369,6 +385,7 @@
     <option name="width" value="1440" />
     <option name="height" value="837" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectPluginManager">
     <option name="pluginsState">
       <option name="jetbrains.mps.baseLanguage.lightweightdsl.pluginSolution.plugin.PluginSolution_ProjectPlugin">
@@ -436,6 +453,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="FileSystem" />
       <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
@@ -460,10 +478,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="6f2104b7-c214-4023-a13f-2bec55d0d35a(HTMLmodel)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:4167242e-6a56-478f-99c7-46c05a453b44(HTMLmodel.constraints) in IdeaFile{file:///Users/Kaszandra/MPSProjects/HTMLdesigner/languages/HTMLmodel/models/constraints.mps}" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -509,7 +523,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="6f2104b7-c214-4023-a13f-2bec55d0d35a(HTMLmodel)" />
+              <option name="myItemId" value="663aa6b6-43f1-453c-a05a-09e84914079a" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -519,7 +533,11 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="663aa6b6-43f1-453c-a05a-09e84914079a" />
+              <option name="myItemId" value="6f2104b7-c214-4023-a13f-2bec55d0d35a(HTMLmodel)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:4167242e-6a56-478f-99c7-46c05a453b44(HTMLmodel.constraints) in IdeaFile{file:///Users/Kaszandra/MPSProjects/HTMLdesigner/languages/HTMLmodel/models/constraints.mps}" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -535,25 +553,24 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="6f2104b7-c214-4023-a13f-2bec55d0d35a(HTMLmodel)" />
+              <option name="myItemId" value="663aa6b6-43f1-453c-a05a-09e84914079a" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:4167242e-6a56-478f-99c7-46c05a453b44(HTMLmodel.constraints) in IdeaFile{file:///Users/Kaszandra/MPSProjects/HTMLdesigner/languages/HTMLmodel/models/constraints.mps}" />
+              <option name="myItemId" value="Test" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Attributes" />
+              <option name="myItemId" value="r:81f25dd4-1d5d-4c55-bd25-dfb63f69e52e(Test.webpage) in IdeaFile{file:///Users/Kaszandra/MPSProjects/HTMLdesigner/solutions/Test/models/webpage.mps}" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="7634203337893332263" />
+              <option name="myItemId" value="7634203337893301616" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
         </subPane>
       </pane>
-      <pane id="FileSystem" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -629,6 +646,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="837" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -642,16 +660,18 @@
       <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.49722221" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18147208" sideWeight="0.49722221" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Context Actions" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5347222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4027778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cell Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -660,9 +680,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -717,7 +735,6 @@
     <entry file="mps://node://HTMLmodel/HTMLmodel.structure/&lt;no name&gt;[ConceptDeclaration]" />
     <entry file="mps://node://HTMLmodel/HTMLmodel.structure/&lt;no name&gt;[ConceptDeclaration]" />
     <entry file="mps://node://HTMLmodel/HTMLmodel.structure/&lt;no name&gt;[ConceptDeclaration]" />
-    <entry file="mps://node://HTMLmodel/HTMLmodel.structure/&lt;no name&gt;[ConceptDeclaration]" />
     <entry file="mps://node://HTMLmodel/HTMLmodel.structure/&lt;no name&gt;[InterfaceConceptDeclaration]" />
     <entry file="mps://node://HTMLmodel/HTMLmodel.structure/&lt;no name&gt;[ConceptDeclaration]" />
     <entry file="mps://node://HTMLmodel/HTMLmodel.structure/&lt;no name&gt;[ConceptDeclaration]" />
@@ -762,25 +779,51 @@
     <entry file="mps://node://HTMLmodel/HTMLmodel.structure/div" />
     <entry file="mps://node://HTMLmodel/HTMLmodel.structure/type" />
     <entry file="mps://node://HTMLmodel/HTMLmodel.structure/href" />
+    <entry file="mps://node://HTMLmodel/HTMLmodel.structure/rel" />
+    <entry file="mps://node://HTMLmodel/HTMLmodel.structure/relNode">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:4167242e-6a56-478f-99c7-46c05a453b44(HTMLmodel.constraints)/7634203337893301651" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:81f25dd4-1d5d-4c55-bd25-dfb63f69e52e(Test.webpage)/7634203337893325011" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:4167242e-6a56-478f-99c7-46c05a453b44(HTMLmodel.constraints)/7634203337893301650" />
+        </state>
+      </provider>
+    </entry>
     <entry file="mps://node://Test/Test.webpage/html">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState" editorFocused="true">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="30">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="83">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="111" />
-                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="55" />
+                <property name="caretXRelative" value="8" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="empty_attributes" cellNumber="0" isInList="false">
-                  <node node_reference="r:81f25dd4-1d5d-4c55-bd25-dfb63f69e52e(Test.webpage)/7634203337893327766" />
+                <cellInfo cellId="constant_5" cellNumber="0" isInList="false">
+                  <node node_reference="r:81f25dd4-1d5d-4c55-bd25-dfb63f69e52e(Test.webpage)/7634203337893325011" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
             <errorMarkers>
-              <errorMarker text="" propertyCell="true" cellId="property_name" cellNumber="0" isInList="false">
-                <node node_reference="r:81f25dd4-1d5d-4c55-bd25-dfb63f69e52e(Test.webpage)/7634203337893327774" />
-              </errorMarker>
               <errorMarker text="" propertyCell="true" cellId="property_name" cellNumber="0" isInList="false">
                 <node node_reference="r:81f25dd4-1d5d-4c55-bd25-dfb63f69e52e(Test.webpage)/7634203337893301628" />
               </errorMarker>
@@ -789,7 +832,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:81f25dd4-1d5d-4c55-bd25-dfb63f69e52e(Test.webpage)/7634203337893327766" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:81f25dd4-1d5d-4c55-bd25-dfb63f69e52e(Test.webpage)/7634203337893325011" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -800,6 +843,5 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://HTMLmodel/HTMLmodel.structure/rel" />
   </component>
 </project>
