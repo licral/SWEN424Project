@@ -221,6 +221,12 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="6BM8RNMeL1A" resolve="attributeInterface" />
     </node>
+    <node concept="1TJgyj" id="3hWHLN$xqNt" role="1TKVEi">
+      <property role="IQ2ns" value="3782099121805307101" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="text" />
+      <ref role="20lvS9" node="6BM8RNMeL1K" resolve="textNode" />
+    </node>
     <node concept="PrWs8" id="6BM8RNMeL3b" role="PzmwI">
       <ref role="PrY4T" node="6BM8RNMeL1E" resolve="elementInterface" />
     </node>
@@ -261,8 +267,13 @@
     <property role="34LRSv" value="text" />
     <property role="3GE5qa" value="Attributes" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="6BM8RNMeL35" role="PzmwI">
-      <ref role="PrY4T" node="6BM8RNMeL1A" resolve="attributeInterface" />
+    <node concept="PrWs8" id="3hWHLN$x5M1" role="PzmwI">
+      <ref role="PrY4T" node="6BM8RNMeL1E" resolve="elementInterface" />
+    </node>
+    <node concept="1TJgyi" id="3hWHLN$xkFN" role="1TKVEl">
+      <property role="IQ2nx" value="3782099121805282035" />
+      <property role="TrG5h" value="name" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
   <node concept="1TIwiD" id="6BM8RNMeL1L">

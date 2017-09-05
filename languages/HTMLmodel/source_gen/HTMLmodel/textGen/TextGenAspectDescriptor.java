@@ -37,10 +37,16 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
         return new idNode_TextGen();
       case LanguageConceptSwitch.linkNode:
         return new linkNode_TextGen();
+      case LanguageConceptSwitch.newlineNode:
+        return new newlineNode_TextGen();
+      case LanguageConceptSwitch.pNode:
+        return new pNode_TextGen();
       case LanguageConceptSwitch.relNode:
         return new relNode_TextGen();
       case LanguageConceptSwitch.styleNode:
         return new styleNode_TextGen();
+      case LanguageConceptSwitch.textNode:
+        return new textNode_TextGen();
       case LanguageConceptSwitch.titleNode:
         return new titleNode_TextGen();
       case LanguageConceptSwitch.typeNode:

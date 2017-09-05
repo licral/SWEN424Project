@@ -25,6 +25,14 @@ public class divNode_TextGen extends TextGenDescriptorBase {
     });
     tgs.append(">");
     tgs.newLine();
+    ctx.getBuffer().area().increaseIndent();
+    ListSequence.fromList(SLinkOperations.getChildren(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b106bL, 0x69f2237cf23b10b1L, "elements"))).visitAll(new IVisitor<SNode>() {
+      public void visit(SNode element) {
+        tgs.appendNode(element);
+        tgs.newLine();
+      }
+    });
+    ctx.getBuffer().area().decreaseIndent();
     tgs.indent();
     tgs.append("</div>");
   }

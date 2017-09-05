@@ -12,7 +12,12 @@
         <child id="7634203337893286005" name="body" index="2rMjc9" />
         <child id="7634203337893286002" name="head" index="2rMjce" />
       </concept>
-      <concept id="7634203337893285996" name="HTMLmodel.structure.pNode" flags="ng" index="2rMjcg" />
+      <concept id="7634203337893286000" name="HTMLmodel.structure.textNode" flags="ng" index="2rMjcc">
+        <property id="3782099121805282035" name="name" index="3gYvRJ" />
+      </concept>
+      <concept id="7634203337893285996" name="HTMLmodel.structure.pNode" flags="ng" index="2rMjcg">
+        <child id="3782099121805307101" name="text" index="3gYhJ1" />
+      </concept>
       <concept id="7634203337893285997" name="HTMLmodel.structure.styleNode" flags="ng" index="2rMjch" />
       <concept id="7634203337893285998" name="HTMLmodel.structure.classNode" flags="ng" index="2rMjci" />
       <concept id="7634203337893285999" name="HTMLmodel.structure.idNode" flags="ng" index="2rMjcj" />
@@ -74,10 +79,20 @@
         <node concept="2rMjcj" id="3hWHLN$wMjm" role="2rMjfi">
           <property role="2rMjfk" value="mainContent" />
         </node>
+        <node concept="2rMjcc" id="3hWHLN$xqNn" role="2rMjfd">
+          <property role="3gYvRJ" value="This is some text" />
+        </node>
       </node>
       <node concept="2rMjcn" id="6BM8RNMeVem" role="2rMjfn">
+        <node concept="2rMjcc" id="3hWHLN$$56B" role="2rMjfd">
+          <property role="3gYvRJ" value="Hello this is not in a p tag" />
+        </node>
         <node concept="2rMjcn" id="3yAWtIdyFi7" role="2rMjfd">
-          <node concept="2rMjcg" id="3yAWtIdyFi9" role="2rMjfd" />
+          <node concept="2rMjcg" id="3yAWtIdyFi9" role="2rMjfd">
+            <node concept="2rMjcc" id="3hWHLN$xwVr" role="3gYhJ1">
+              <property role="3gYvRJ" value="This is some text in a paragraph or something" />
+            </node>
+          </node>
         </node>
         <node concept="2rMjch" id="3hWHLN$wMjq" role="2rMjfi">
           <property role="2rMjfk" value="background-color: blue;" />
