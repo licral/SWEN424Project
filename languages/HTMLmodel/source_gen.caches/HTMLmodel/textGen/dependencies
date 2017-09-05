@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="HTMLmodel.textGen.TextGenAspectDescriptor" file="TextGenAspectDescriptor.java">
+    <classNode dependClassName="HTMLmodel.structure.LanguageConceptSwitch" />
+    <classNode dependClassName="HTMLmodel.textGen.bodyNode_TextGen" />
+    <classNode dependClassName="HTMLmodel.textGen.classNode_TextGen" />
+    <classNode dependClassName="HTMLmodel.textGen.divNode_TextGen" />
+    <classNode dependClassName="HTMLmodel.textGen.headNode_TextGen" />
+    <classNode dependClassName="HTMLmodel.textGen.hrefNode_TextGen" />
+    <classNode dependClassName="HTMLmodel.textGen.idNode_TextGen" />
+    <classNode dependClassName="HTMLmodel.textGen.linkNode_TextGen" />
+    <classNode dependClassName="HTMLmodel.textGen.relNode_TextGen" />
+    <classNode dependClassName="HTMLmodel.textGen.styleNode_TextGen" />
+    <classNode dependClassName="HTMLmodel.textGen.titleNode_TextGen" />
+    <classNode dependClassName="HTMLmodel.textGen.typeNode_TextGen" />
+    <classNode dependClassName="HTMLmodel.textGen.webpageNode_TextGen" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenDescriptor" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenModelOutline" />
+    <classNode dependClassName="org.jetbrains.annotations.NotNull" />
+    <classNode dependClassName="org.jetbrains.annotations.Nullable" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SAbstractConcept" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.text.rt.TextGenAspectBase" />
+  </dependency>
+  <dependency className="HTMLmodel.textGen.bodyNode_TextGen" file="bodyNode_TextGen.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IVisitor" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="jetbrains.mps.text.impl.TextGenSupport" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenContext" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
+  </dependency>
+  <dependency className="HTMLmodel.textGen.classNode_TextGen" file="classNode_TextGen.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="jetbrains.mps.text.impl.TextGenSupport" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenContext" />
+    <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
+  </dependency>
+  <dependency className="HTMLmodel.textGen.divNode_TextGen" file="divNode_TextGen.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IVisitor" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="jetbrains.mps.text.impl.TextGenSupport" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenContext" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
+  </dependency>
+  <dependency className="HTMLmodel.textGen.headNode_TextGen" file="headNode_TextGen.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IVisitor" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="jetbrains.mps.text.impl.TextGenSupport" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenContext" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
+  </dependency>
+  <dependency className="HTMLmodel.textGen.hrefNode_TextGen" file="hrefNode_TextGen.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="jetbrains.mps.text.impl.TextGenSupport" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenContext" />
+    <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
+  </dependency>
+  <dependency className="HTMLmodel.textGen.idNode_TextGen" file="idNode_TextGen.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="jetbrains.mps.text.impl.TextGenSupport" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenContext" />
+    <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
+  </dependency>
+  <dependency className="HTMLmodel.textGen.linkNode_TextGen" file="linkNode_TextGen.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IVisitor" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="jetbrains.mps.text.impl.TextGenSupport" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenContext" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
+  </dependency>
+  <dependency className="HTMLmodel.textGen.relNode_TextGen" file="relNode_TextGen.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="jetbrains.mps.text.impl.TextGenSupport" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenContext" />
+    <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
+  </dependency>
+  <dependency className="HTMLmodel.textGen.styleNode_TextGen" file="styleNode_TextGen.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="jetbrains.mps.text.impl.TextGenSupport" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenContext" />
+    <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
+  </dependency>
+  <dependency className="HTMLmodel.textGen.titleNode_TextGen" file="titleNode_TextGen.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="jetbrains.mps.text.impl.TextGenSupport" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenContext" />
+    <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
+  </dependency>
+  <dependency className="HTMLmodel.textGen.typeNode_TextGen" file="typeNode_TextGen.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="jetbrains.mps.text.impl.TextGenSupport" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenContext" />
+    <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
+  </dependency>
+  <dependency className="HTMLmodel.textGen.webpageNode_TextGen" file="webpageNode_TextGen.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="jetbrains.mps.text.impl.TextGenSupport" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenContext" />
+    <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
+  </dependency>
+</dependenciesRoot>
+

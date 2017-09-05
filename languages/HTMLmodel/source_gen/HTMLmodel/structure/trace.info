@@ -8,7 +8,7 @@
       <unit at="10,0,62,0" name="HTMLmodel.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <unit at="14,0,239,0" name="HTMLmodel.structure.StructureAspectDescriptor" />
+      <unit at="14,0,240,0" name="HTMLmodel.structure.StructureAspectDescriptor" />
     </file>
   </root>
 </debug-info>
