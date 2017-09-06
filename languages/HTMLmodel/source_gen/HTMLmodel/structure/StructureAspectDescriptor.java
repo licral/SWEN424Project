@@ -181,6 +181,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.parent(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b106aL);
     b.origin("r:2f44e61d-11b9-4283-84e2-b50d2d76e6ff(HTMLmodel.structure)/7634203337893285996");
     b.aggregate("attributes", 0x69f2237cf23b10c8L).target(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b1066L).optional(true).ordered(true).multiple(true).origin("7634203337893286088").done();
+    b.aggregate("text", 0x347cb71ce485acddL).target(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b1070L).optional(true).ordered(true).multiple(false).origin("3782099121805307101").done();
     b.alias("p");
     return b.create();
   }
@@ -205,8 +206,9 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorFortextNode() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("HTMLmodel", "textNode", 0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b1070L);
     b.class_(false, false, false);
-    b.parent(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b1066L);
+    b.parent(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b106aL);
     b.origin("r:2f44e61d-11b9-4283-84e2-b50d2d76e6ff(HTMLmodel.structure)/7634203337893286000");
+    b.prop("name", 0x347cb71ce4854af3L, "3782099121805282035");
     b.alias("text");
     return b.create();
   }
@@ -232,6 +234,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("HTMLmodel", "webpageNode", 0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b0fbeL);
     b.class_(false, false, true);
     b.origin("r:2f44e61d-11b9-4283-84e2-b50d2d76e6ff(HTMLmodel.structure)/7634203337893285822");
+    b.prop("name", 0x347cb71ce4824ed8L, "3782099121805086424");
     b.aggregate("head", 0x69f2237cf23b1072L).target(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b105bL).optional(true).ordered(true).multiple(false).origin("7634203337893286002").done();
     b.aggregate("body", 0x69f2237cf23b1075L).target(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b105fL).optional(true).ordered(true).multiple(false).origin("7634203337893286005").done();
     b.alias("html");

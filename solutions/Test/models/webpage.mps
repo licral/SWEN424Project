@@ -11,9 +11,12 @@
         <child id="7634203337893286005" name="body" index="2rMjc9" />
         <child id="7634203337893286002" name="head" index="2rMjce" />
       </concept>
-      <concept id="7634203337893286000" name="HTMLmodel.structure.textNode" flags="ng" index="2rMjcc" />
+      <concept id="7634203337893286000" name="HTMLmodel.structure.textNode" flags="ng" index="2rMjcc">
+        <property id="3782099121805282035" name="name" index="3gYvRJ" />
+      </concept>
       <concept id="7634203337893285996" name="HTMLmodel.structure.pNode" flags="ng" index="2rMjcg">
         <child id="7634203337893286088" name="attributes" index="2rMjeO" />
+        <child id="3782099121805307101" name="text" index="3gYhJ1" />
       </concept>
       <concept id="7634203337893285997" name="HTMLmodel.structure.styleNode" flags="ng" index="2rMjch">
         <property id="2340377730418790765" name="value" index="1XCA18" />
@@ -72,21 +75,12 @@
           <property role="1XCA1e" value="color" />
           <property role="1XCA18" value="blue" />
         </node>
-        <node concept="2rMjcg" id="21UGiltQMnn" role="2rMjfd">
-          <node concept="2rMjci" id="21UGiltQMnP" role="2rMjeO">
-            <property role="2rMjfk" value="hi" />
+        <node concept="2rMjcg" id="21UGiltRCM$" role="2rMjfd">
+          <node concept="2rMjci" id="21UGiltRXzT" role="2rMjeO">
+            <property role="2rMjfk" value="lksjflaks" />
           </node>
-        </node>
-      </node>
-      <node concept="2rMjcg" id="21UGiltQ_Lk" role="2rMjfn">
-        <node concept="2rMjcc" id="21UGiltQ_Lt" role="2rMjeO">
-          <property role="2rMjfk" value="outside" />
-        </node>
-      </node>
-      <node concept="2rMjcn" id="21UGiltQ_Me" role="2rMjfn">
-        <node concept="2rMjcg" id="21UGiltQMlL" role="2rMjfd">
-          <node concept="2rMjcc" id="21UGiltQMm9" role="2rMjeO">
-            <property role="2rMjfk" value="hi" />
+          <node concept="2rMjcc" id="21UGiltRX$9" role="3gYhJ1">
+            <property role="3gYvRJ" value="this is some text" />
           </node>
         </node>
       </node>

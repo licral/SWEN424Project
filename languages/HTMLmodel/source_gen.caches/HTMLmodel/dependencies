@@ -6,6 +6,7 @@
     <classNode dependClassName="HTMLmodel.editor.EditorAspectDescriptorImpl" />
     <classNode dependClassName="HTMLmodel.structure.ConceptPresentationAspectImpl" />
     <classNode dependClassName="HTMLmodel.structure.StructureAspectDescriptor" />
+    <classNode dependClassName="HTMLmodel.textGen.TextGenAspectDescriptor" />
     <classNode dependClassName="HTMLmodel.typesystem.TypesystemDescriptor" />
     <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="java.lang.Override" />
@@ -21,6 +22,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ILanguageAspect" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.StructureAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenAspectDescriptor" />
     <classNode dependClassName="org.jetbrains.mps.openapi.language.SLanguage" />
     <classNode extendsClassName="jetbrains.mps.smodel.language.LanguageRuntime" />
   </dependency>
