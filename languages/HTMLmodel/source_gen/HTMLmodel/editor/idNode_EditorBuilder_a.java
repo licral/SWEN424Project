@@ -39,31 +39,17 @@ import jetbrains.mps.nodeEditor.EditorManager;
     editorCell.setBig(true);
     editorCell.setCellContext(getCellFactory().getCellContext());
     editorCell.addEditorCell(createConstant_4qcoiv_a0());
-    editorCell.addEditorCell(createConstant_4qcoiv_b0());
+    editorCell.addEditorCell(createProperty_4qcoiv_b0());
     editorCell.addEditorCell(createConstant_4qcoiv_c0());
-    editorCell.addEditorCell(createProperty_4qcoiv_d0());
-    editorCell.addEditorCell(createConstant_4qcoiv_e0());
     return editorCell;
   }
   private EditorCell createConstant_4qcoiv_a0() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "id");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "id = \"");
     editorCell.setCellId("Constant_4qcoiv_a0");
     editorCell.setDefaultText("");
     return editorCell;
   }
-  private EditorCell createConstant_4qcoiv_b0() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "=");
-    editorCell.setCellId("Constant_4qcoiv_b0");
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-  private EditorCell createConstant_4qcoiv_c0() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "\"");
-    editorCell.setCellId("Constant_4qcoiv_c0");
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-  private EditorCell createProperty_4qcoiv_d0() {
+  private EditorCell createProperty_4qcoiv_b0() {
     CellProviderWithRole provider = new PropertyCellProvider(myNode, getEditorContext());
     provider.setRole("name");
     provider.setNoTargetText("<no name>");
@@ -78,9 +64,9 @@ import jetbrains.mps.nodeEditor.EditorManager;
     } else
     return editorCell;
   }
-  private EditorCell createConstant_4qcoiv_e0() {
+  private EditorCell createConstant_4qcoiv_c0() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "\"");
-    editorCell.setCellId("Constant_4qcoiv_e0");
+    editorCell.setCellId("Constant_4qcoiv_c0");
     editorCell.setDefaultText("");
     return editorCell;
   }

@@ -39,31 +39,17 @@ import jetbrains.mps.nodeEditor.EditorManager;
     editorCell.setBig(true);
     editorCell.setCellContext(getCellFactory().getCellContext());
     editorCell.addEditorCell(createConstant_m5c7ah_a0());
-    editorCell.addEditorCell(createConstant_m5c7ah_b0());
+    editorCell.addEditorCell(createProperty_m5c7ah_b0());
     editorCell.addEditorCell(createConstant_m5c7ah_c0());
-    editorCell.addEditorCell(createProperty_m5c7ah_d0());
-    editorCell.addEditorCell(createConstant_m5c7ah_e0());
     return editorCell;
   }
   private EditorCell createConstant_m5c7ah_a0() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "class");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "class = \"");
     editorCell.setCellId("Constant_m5c7ah_a0");
     editorCell.setDefaultText("");
     return editorCell;
   }
-  private EditorCell createConstant_m5c7ah_b0() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "=");
-    editorCell.setCellId("Constant_m5c7ah_b0");
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-  private EditorCell createConstant_m5c7ah_c0() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "\"");
-    editorCell.setCellId("Constant_m5c7ah_c0");
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-  private EditorCell createProperty_m5c7ah_d0() {
+  private EditorCell createProperty_m5c7ah_b0() {
     CellProviderWithRole provider = new PropertyCellProvider(myNode, getEditorContext());
     provider.setRole("name");
     provider.setNoTargetText("<no name>");
@@ -78,9 +64,9 @@ import jetbrains.mps.nodeEditor.EditorManager;
     } else
     return editorCell;
   }
-  private EditorCell createConstant_m5c7ah_e0() {
+  private EditorCell createConstant_m5c7ah_c0() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "\"");
-    editorCell.setCellId("Constant_m5c7ah_e0");
+    editorCell.setCellId("Constant_m5c7ah_c0");
     editorCell.setDefaultText("");
     return editorCell;
   }

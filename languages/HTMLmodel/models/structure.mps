@@ -229,6 +229,16 @@
     <node concept="PrWs8" id="6BM8RNMeL2W" role="PzmwI">
       <ref role="PrY4T" node="6BM8RNMeL1A" resolve="attributeInterface" />
     </node>
+    <node concept="1TJgyi" id="21UGiltQd5F" role="1TKVEl">
+      <property role="IQ2nx" value="2340377730418790763" />
+      <property role="TrG5h" value="property" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="21UGiltQd5H" role="1TKVEl">
+      <property role="IQ2nx" value="2340377730418790765" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6BM8RNMeL1I">
     <property role="EcuMT" value="7634203337893285998" />

@@ -197,6 +197,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, false);
     b.parent(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b1066L);
     b.origin("r:2f44e61d-11b9-4283-84e2-b50d2d76e6ff(HTMLmodel.structure)/7634203337893285997");
+    b.prop("property", 0x207ab1255dd8d16bL, "2340377730418790763");
+    b.prop("value", 0x207ab1255dd8d16dL, "2340377730418790765");
     b.alias("style");
     return b.create();
   }
