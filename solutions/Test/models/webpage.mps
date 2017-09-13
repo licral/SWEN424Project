@@ -8,25 +8,17 @@
   <registry>
     <language id="6f2104b7-c214-4023-a13f-2bec55d0d35a" name="HTMLmodel">
       <concept id="7634203337893285822" name="HTMLmodel.structure.webpageNode" flags="ng" index="2rMiN2">
+        <property id="3782099121805086424" name="name" index="3gZJB4" />
         <child id="7634203337893286005" name="body" index="2rMjc9" />
         <child id="7634203337893286002" name="head" index="2rMjce" />
       </concept>
-      <concept id="7634203337893286000" name="HTMLmodel.structure.textNode" flags="ng" index="2rMjcc">
-        <property id="3782099121805282035" name="name" index="3gYvRJ" />
-      </concept>
       <concept id="7634203337893285996" name="HTMLmodel.structure.pNode" flags="ng" index="2rMjcg">
         <child id="7634203337893286088" name="attributes" index="2rMjeO" />
-        <child id="3782099121805307101" name="text" index="3gYhJ1" />
-      </concept>
-      <concept id="7634203337893285997" name="HTMLmodel.structure.styleNode" flags="ng" index="2rMjch">
-        <property id="2340377730418790765" name="value" index="1XCA18" />
-        <property id="2340377730418790763" name="property" index="1XCA1e" />
       </concept>
       <concept id="7634203337893285998" name="HTMLmodel.structure.classNode" flags="ng" index="2rMjci" />
       <concept id="7634203337893285999" name="HTMLmodel.structure.idNode" flags="ng" index="2rMjcj" />
       <concept id="7634203337893285992" name="HTMLmodel.structure.hrefNode" flags="ng" index="2rMjck" />
       <concept id="7634203337893285995" name="HTMLmodel.structure.divNode" flags="ng" index="2rMjcn">
-        <child id="7634203337893286065" name="elements" index="2rMjfd" />
         <child id="7634203337893286062" name="attributes" index="2rMjfi" />
       </concept>
       <concept id="7634203337893285989" name="HTMLmodel.structure.linkNode" flags="ng" index="2rMjcp">
@@ -48,6 +40,7 @@
     </language>
   </registry>
   <node concept="2rMiN2" id="6BM8RNMeOPK">
+    <property role="3gZJB4" value="home" />
     <node concept="2rMjcB" id="21UGiltQscW" role="2rMjce">
       <node concept="2rMjct" id="21UGiltQsd0" role="2rMjc6">
         <property role="2rMjcu" value="dsds" />
@@ -71,17 +64,25 @@
         <node concept="2rMjcj" id="21UGiltQ_Ip" role="2rMjfi">
           <property role="2rMjfk" value="hello" />
         </node>
-        <node concept="2rMjch" id="21UGiltQ_IO" role="2rMjfi">
-          <property role="1XCA1e" value="color" />
-          <property role="1XCA18" value="blue" />
+      </node>
+      <node concept="2rMjcg" id="3VjOb8qab8_" role="2rMjfn">
+        <node concept="2rMjci" id="3VjOb8qab8F" role="2rMjeO">
+          <property role="2rMjfk" value="kjsalfkas" />
         </node>
-        <node concept="2rMjcg" id="21UGiltRCM$" role="2rMjfd">
-          <node concept="2rMjci" id="21UGiltRXzT" role="2rMjeO">
-            <property role="2rMjfk" value="lksjflaks" />
-          </node>
-          <node concept="2rMjcc" id="21UGiltRX$9" role="3gYhJ1">
-            <property role="3gYvRJ" value="this is some text" />
-          </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2rMiN2" id="3VjOb8qab8T">
+    <property role="3gZJB4" value="test" />
+    <node concept="2rMjcz" id="3VjOb8qab8U" role="2rMjc9">
+      <node concept="2rMjcn" id="3VjOb8qab8Y" role="2rMjfn">
+        <node concept="2rMjci" id="3VjOb8qab91" role="2rMjfi">
+          <property role="2rMjfk" value="container" />
+        </node>
+      </node>
+      <node concept="2rMjcg" id="3VjOb8qab97" role="2rMjfn">
+        <node concept="2rMjci" id="3VjOb8qab9c" role="2rMjeO">
+          <property role="2rMjfk" value="lkasjflksd" />
         </node>
       </node>
     </node>
