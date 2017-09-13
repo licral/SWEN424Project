@@ -27,6 +27,8 @@ public final class LanguageConceptSwitch {
   public static final int titleNode = 15;
   public static final int typeNode = 16;
   public static final int webpageNode = 17;
+  public static final int webpageReferenceNode = 18;
+  public static final int websiteNode = 19;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL);
@@ -48,6 +50,8 @@ public final class LanguageConceptSwitch {
     builder.put(0x69f2237cf23b1061L, titleNode);
     builder.put(0x69f2237cf23b1069L, typeNode);
     builder.put(0x69f2237cf23b0fbeL, webpageNode);
+    builder.put(0x3ed3d0b21a2ab17bL, webpageReferenceNode);
+    builder.put(0x3ed3d0b21a2aa6c8L, websiteNode);
     myIndex = builder.seal();
   }
 

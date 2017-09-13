@@ -69,7 +69,7 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
     }
   }
   private static String getFileName_webpageNode(SNode node) {
-    return SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b0fbeL, 0x347cb71ce4824ed8L, "name"));
+    return SPropertyOperations.getString(node, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
   }
   private static String getFileExtension_webpageNode(SNode node) {
     return "html";

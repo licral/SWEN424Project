@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="bhbg" ref="r:2f44e61d-11b9-4283-84e2-b50d2d76e6ff(HTMLmodel.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -181,8 +182,8 @@
         <node concept="3clFbF" id="3hWHLN$wFoH" role="3cqZAp">
           <node concept="2OqwBi" id="3hWHLN$wF_w" role="3clFbG">
             <node concept="117lpO" id="3hWHLN$wFoG" role="2Oq$k0" />
-            <node concept="3TrcHB" id="3hWHLN$wFR8" role="2OqNvi">
-              <ref role="3TsBF5" to="bhbg:3hWHLN$w$Vo" resolve="name" />
+            <node concept="3TrcHB" id="3VjOb8qaZPP" role="2OqNvi">
+              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
             </node>
           </node>
         </node>

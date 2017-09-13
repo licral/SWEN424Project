@@ -30,6 +30,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConcepttitleNode = createDescriptorFortitleNode();
   /*package*/ final ConceptDescriptor myConcepttypeNode = createDescriptorFortypeNode();
   /*package*/ final ConceptDescriptor myConceptwebpageNode = createDescriptorForwebpageNode();
+  /*package*/ final ConceptDescriptor myConceptwebpageReferenceNode = createDescriptorForwebpageReferenceNode();
+  /*package*/ final ConceptDescriptor myConceptwebsiteNode = createDescriptorForwebsiteNode();
   private final LanguageConceptSwitch myConceptIndex;
 
   public StructureAspectDescriptor() {
@@ -38,7 +40,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptattributeInterface, myConceptbodyNode, myConceptclassNode, myConceptdivNode, myConceptelementInterface, myConceptheadNode, myConcepthrefNode, myConceptidNode, myConceptlinkNode, myConceptmetadataInterface, myConceptnewlineNode, myConceptpNode, myConceptrelNode, myConceptstyleNode, myConcepttextNode, myConcepttitleNode, myConcepttypeNode, myConceptwebpageNode);
+    return Arrays.asList(myConceptattributeInterface, myConceptbodyNode, myConceptclassNode, myConceptdivNode, myConceptelementInterface, myConceptheadNode, myConcepthrefNode, myConceptidNode, myConceptlinkNode, myConceptmetadataInterface, myConceptnewlineNode, myConceptpNode, myConceptrelNode, myConceptstyleNode, myConcepttextNode, myConcepttitleNode, myConcepttypeNode, myConceptwebpageNode, myConceptwebpageReferenceNode, myConceptwebsiteNode);
   }
 
   @Override
@@ -81,6 +83,10 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConcepttypeNode;
       case LanguageConceptSwitch.webpageNode:
         return myConceptwebpageNode;
+      case LanguageConceptSwitch.webpageReferenceNode:
+        return myConceptwebpageReferenceNode;
+      case LanguageConceptSwitch.websiteNode:
+        return myConceptwebsiteNode;
       default:
         return null;
     }
@@ -233,11 +239,25 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForwebpageNode() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("HTMLmodel", "webpageNode", 0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b0fbeL);
     b.class_(false, false, true);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:2f44e61d-11b9-4283-84e2-b50d2d76e6ff(HTMLmodel.structure)/7634203337893285822");
-    b.prop("name", 0x347cb71ce4824ed8L, "3782099121805086424");
     b.aggregate("head", 0x69f2237cf23b1072L).target(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b105bL).optional(true).ordered(true).multiple(false).origin("7634203337893286002").done();
     b.aggregate("body", 0x69f2237cf23b1075L).target(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b105fL).optional(true).ordered(true).multiple(false).origin("7634203337893286005").done();
-    b.alias("html");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForwebpageReferenceNode() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("HTMLmodel", "webpageReferenceNode", 0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x3ed3d0b21a2ab17bL);
+    b.class_(false, false, false);
+    b.origin("r:2f44e61d-11b9-4283-84e2-b50d2d76e6ff(HTMLmodel.structure)/4527191513799242107");
+    b.associate("webpage", 0x3ed3d0b21a2ab17cL).target(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b0fbeL).optional(false).origin("4527191513799242108").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForwebsiteNode() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("HTMLmodel", "websiteNode", 0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x3ed3d0b21a2aa6c8L);
+    b.class_(false, false, true);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
+    b.origin("r:2f44e61d-11b9-4283-84e2-b50d2d76e6ff(HTMLmodel.structure)/4527191513799239368");
+    b.aggregate("webpages", 0x3ed3d0b21a2ab17fL).target(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x3ed3d0b21a2ab17bL).optional(true).ordered(true).multiple(true).origin("4527191513799242111").done();
     return b.create();
   }
 }

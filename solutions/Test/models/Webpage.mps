@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:81f25dd4-1d5d-4c55-bd25-dfb63f69e52e(Test.webpage)">
+<model ref="r:3664076c-e4b1-4687-a6b7-ddeec50ab9e6(Webpage)">
   <persistence version="9" />
   <languages>
     <use id="6f2104b7-c214-4023-a13f-2bec55d0d35a" name="HTMLmodel" version="0" />
@@ -8,7 +8,6 @@
   <registry>
     <language id="6f2104b7-c214-4023-a13f-2bec55d0d35a" name="HTMLmodel">
       <concept id="7634203337893285822" name="HTMLmodel.structure.webpageNode" flags="ng" index="2rMiN2">
-        <property id="3782099121805086424" name="name" index="3gZJB4" />
         <child id="7634203337893286005" name="body" index="2rMjc9" />
         <child id="7634203337893286002" name="head" index="2rMjce" />
       </concept>
@@ -37,10 +36,36 @@
       <concept id="7634203337893285979" name="HTMLmodel.structure.headNode" flags="ng" index="2rMjcB">
         <child id="7634203337893286010" name="metadata" index="2rMjc6" />
       </concept>
+      <concept id="4527191513799242107" name="HTMLmodel.structure.webpageReferenceNode" flags="ng" index="$Ym79">
+        <reference id="4527191513799242108" name="webpage" index="$Ym7e" />
+      </concept>
+      <concept id="4527191513799239368" name="HTMLmodel.structure.websiteNode" flags="ng" index="$YnpU">
+        <child id="4527191513799242111" name="webpages" index="$Ym7d" />
+      </concept>
+    </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
     </language>
   </registry>
+  <node concept="2rMiN2" id="3VjOb8qab8T">
+    <property role="TrG5h" value="test2" />
+    <node concept="2rMjcz" id="3VjOb8qab8U" role="2rMjc9">
+      <node concept="2rMjcn" id="3VjOb8qab8Y" role="2rMjfn">
+        <node concept="2rMjci" id="3VjOb8qab91" role="2rMjfi">
+          <property role="2rMjfk" value="container" />
+        </node>
+      </node>
+      <node concept="2rMjcg" id="3VjOb8qab97" role="2rMjfn">
+        <node concept="2rMjci" id="3VjOb8qab9c" role="2rMjeO">
+          <property role="2rMjfk" value="lkasjflksd" />
+        </node>
+      </node>
+    </node>
+  </node>
   <node concept="2rMiN2" id="6BM8RNMeOPK">
-    <property role="3gZJB4" value="home" />
+    <property role="TrG5h" value="test" />
     <node concept="2rMjcB" id="21UGiltQscW" role="2rMjce">
       <node concept="2rMjct" id="21UGiltQsd0" role="2rMjc6">
         <property role="2rMjcu" value="dsds" />
@@ -72,19 +97,13 @@
       </node>
     </node>
   </node>
-  <node concept="2rMiN2" id="3VjOb8qab8T">
-    <property role="3gZJB4" value="test" />
-    <node concept="2rMjcz" id="3VjOb8qab8U" role="2rMjc9">
-      <node concept="2rMjcn" id="3VjOb8qab8Y" role="2rMjfn">
-        <node concept="2rMjci" id="3VjOb8qab91" role="2rMjfi">
-          <property role="2rMjfk" value="container" />
-        </node>
-      </node>
-      <node concept="2rMjcg" id="3VjOb8qab97" role="2rMjfn">
-        <node concept="2rMjci" id="3VjOb8qab9c" role="2rMjeO">
-          <property role="2rMjfk" value="lkasjflksd" />
-        </node>
-      </node>
+  <node concept="$YnpU" id="3VjOb8qaNr7">
+    <property role="TrG5h" value="mywebsite" />
+    <node concept="$Ym79" id="3VjOb8qaNr8" role="$Ym7d">
+      <ref role="$Ym7e" node="3VjOb8qab8T" resolve="test2" />
+    </node>
+    <node concept="$Ym79" id="3VjOb8qaNrb" role="$Ym7d">
+      <ref role="$Ym7e" node="6BM8RNMeOPK" resolve="test" />
     </node>
   </node>
 </model>

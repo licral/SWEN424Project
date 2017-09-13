@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="bhbg" ref="r:2f44e61d-11b9-4283-84e2-b50d2d76e6ff(HTMLmodel.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -55,6 +56,9 @@
       <node concept="l2Vlx" id="539jiMCMfQ8" role="2iSdaV" />
       <node concept="3F0ifn" id="539jiMCMh$y" role="3EZMnx">
         <property role="3F0ifm" value="html" />
+      </node>
+      <node concept="3F0A7n" id="3VjOb8qaQZU" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
       <node concept="3F1sOY" id="539jiMCMhA5" role="3EZMnx">
         <ref role="1NtTu8" to="bhbg:6BM8RNMeL1M" resolve="head" />
@@ -363,6 +367,31 @@
   <node concept="24kQdi" id="7vux49L_xgd">
     <ref role="1XX52x" to="bhbg:6BM8RNMeL1L" resolve="newlineNode" />
     <node concept="3F0ifn" id="7vux49L_xgf" role="2wV5jI" />
+  </node>
+  <node concept="24kQdi" id="3VjOb8qbjoD">
+    <ref role="1XX52x" to="bhbg:3VjOb8qaEr8" resolve="websiteNode" />
+    <node concept="3EZMnI" id="3VjOb8qbjr0" role="2wV5jI">
+      <node concept="3F0ifn" id="3VjOb8qbjra" role="3EZMnx">
+        <property role="3F0ifm" value="Website name:" />
+      </node>
+      <node concept="3F0A7n" id="3VjOb8qbjrj" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <node concept="ljvvj" id="3VjOb8qbju5" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F2HdR" id="3VjOb8qbjrw" role="3EZMnx">
+        <ref role="1NtTu8" to="bhbg:3VjOb8qaF5Z" resolve="webpages" />
+        <node concept="ljvvj" id="3VjOb8qbjsK" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="l2Vlx" id="3VjOb8qbjtK" role="2czzBx" />
+        <node concept="pj6Ft" id="3VjOb8qbsAC" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="3VjOb8qbjtL" role="2iSdaV" />
+    </node>
   </node>
 </model>
 

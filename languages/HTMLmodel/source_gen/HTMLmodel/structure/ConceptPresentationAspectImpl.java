@@ -27,6 +27,8 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private final ConceptPresentation props_titleNode = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_typeNode = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_webpageNode = new ConceptPresentationBuilder().create();
+  private final ConceptPresentation props_webpageReferenceNode = new ConceptPresentationBuilder().create();
+  private final ConceptPresentation props_websiteNode = new ConceptPresentationBuilder().create();
 
   @Override
   @Nullable
@@ -69,6 +71,10 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
         return props_typeNode;
       case LanguageConceptSwitch.webpageNode:
         return props_webpageNode;
+      case LanguageConceptSwitch.webpageReferenceNode:
+        return props_webpageReferenceNode;
+      case LanguageConceptSwitch.websiteNode:
+        return props_websiteNode;
     }
     return null;
   }

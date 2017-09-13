@@ -49,7 +49,6 @@
   <node concept="1TIwiD" id="6BM8RNMeKYY">
     <property role="EcuMT" value="7634203337893285822" />
     <property role="TrG5h" value="webpageNode" />
-    <property role="34LRSv" value="html" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6BM8RNMeL1M" role="1TKVEi">
@@ -64,10 +63,8 @@
       <property role="20kJfa" value="body" />
       <ref role="20lvS9" node="6BM8RNMeL1v" resolve="bodyNode" />
     </node>
-    <node concept="1TJgyi" id="3hWHLN$w$Vo" role="1TKVEl">
-      <property role="IQ2nx" value="3782099121805086424" />
-      <property role="TrG5h" value="name" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="PrWs8" id="3VjOb8qaZvu" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="6BM8RNMeL1r">
@@ -293,6 +290,34 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6BM8RNMeL2a" role="PzmwI">
       <ref role="PrY4T" node="6BM8RNMeL1A" resolve="attributeInterface" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3VjOb8qaEr8">
+    <property role="EcuMT" value="4527191513799239368" />
+    <property role="TrG5h" value="websiteNode" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3VjOb8qaF5Z" role="1TKVEi">
+      <property role="IQ2ns" value="4527191513799242111" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="webpages" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="3VjOb8qaF5V" resolve="webpageReferenceNode" />
+    </node>
+    <node concept="PrWs8" id="3VjOb8qbjou" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3VjOb8qaF5V">
+    <property role="EcuMT" value="4527191513799242107" />
+    <property role="TrG5h" value="webpageReferenceNode" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3VjOb8qaF5W" role="1TKVEi">
+      <property role="IQ2ns" value="4527191513799242108" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="webpage" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6BM8RNMeKYY" resolve="webpageNode" />
     </node>
   </node>
 </model>
