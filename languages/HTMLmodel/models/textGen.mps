@@ -584,7 +584,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="3hWHLN$zana">
-    <property role="3GE5qa" value="Attributes" />
+    <property role="3GE5qa" value="Elements" />
     <ref role="WuzLi" to="bhbg:6BM8RNMeL1K" resolve="textNode" />
     <node concept="11bSqf" id="3hWHLN$zanb" role="11c4hB">
       <node concept="3clFbS" id="3hWHLN$zanc" role="2VODD2">

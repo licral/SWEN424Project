@@ -155,7 +155,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="3yAWtIdyCpp">
-    <property role="3GE5qa" value="Attributes" />
+    <property role="3GE5qa" value="Elements" />
     <ref role="1M2myG" to="bhbg:6BM8RNMeL1K" resolve="textNode" />
     <node concept="9S07l" id="3yAWtIdyCpq" role="9Vyp8">
       <node concept="3clFbS" id="3yAWtIdyCpr" role="2VODD2">

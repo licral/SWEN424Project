@@ -48,6 +48,11 @@
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
       </concept>
     </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
+    </language>
   </registry>
   <node concept="24kQdi" id="6BM8RNMf15B">
     <ref role="1XX52x" to="bhbg:6BM8RNMeKYY" resolve="webpageNode" />
@@ -131,12 +136,6 @@
         <node concept="3F2HdR" id="21UGiltQlZl" role="3EZMnx">
           <ref role="1NtTu8" to="bhbg:6BM8RNMeL2j" resolve="attributes" />
           <node concept="l2Vlx" id="21UGiltQlZn" role="2czzBx" />
-          <node concept="3F2HdR" id="21UGiltQp6l" role="2czzBI">
-            <ref role="1NtTu8" to="bhbg:6BM8RNMeL2j" resolve="attributes" />
-            <node concept="3F2HdR" id="21UGiltQp6n" role="2czzBI">
-              <ref role="1NtTu8" to="bhbg:6BM8RNMeL2j" resolve="attributes" />
-            </node>
-          </node>
         </node>
         <node concept="l2Vlx" id="21UGiltQlZd" role="2iSdaV" />
       </node>
@@ -274,9 +273,6 @@
         <node concept="2iRfu4" id="21UGiltQabj" role="2iSdaV" />
       </node>
       <node concept="l2Vlx" id="7vux49L_wPc" role="2iSdaV" />
-      <node concept="3F1sOY" id="21UGiltRmUL" role="3EZMnx">
-        <ref role="1NtTu8" to="bhbg:3hWHLN$xqNt" resolve="text" />
-      </node>
     </node>
   </node>
   <node concept="24kQdi" id="7vux49L_wP_">
@@ -334,6 +330,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="7vux49L_wU9">
+    <property role="3GE5qa" value="" />
     <ref role="1XX52x" to="bhbg:6BM8RNMeL1K" resolve="textNode" />
     <node concept="3EZMnI" id="7vux49L_wUb" role="2wV5jI">
       <node concept="3F0A7n" id="7vux49L_wUl" role="3EZMnx">
@@ -342,9 +339,6 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="ljvvj" id="21UGiltQCV9" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="pVoyu" id="21UGiltQG3B" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
@@ -362,7 +356,15 @@
   </node>
   <node concept="24kQdi" id="7vux49L_xgd">
     <ref role="1XX52x" to="bhbg:6BM8RNMeL1L" resolve="newlineNode" />
-    <node concept="3F0ifn" id="7vux49L_xgf" role="2wV5jI" />
+    <node concept="3F0ifn" id="21UGiltSMOp" role="2wV5jI">
+      <property role="3F0ifm" value="" />
+      <node concept="lj46D" id="21UGiltSMOs" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+      <node concept="ljvvj" id="21UGiltSMOx" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+    </node>
   </node>
 </model>
 

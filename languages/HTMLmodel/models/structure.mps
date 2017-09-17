@@ -275,7 +275,7 @@
     <property role="EcuMT" value="7634203337893286000" />
     <property role="TrG5h" value="textNode" />
     <property role="34LRSv" value="text" />
-    <property role="3GE5qa" value="Attributes" />
+    <property role="3GE5qa" value="Elements" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3hWHLN$x5M1" role="PzmwI">
       <ref role="PrY4T" node="6BM8RNMeL1E" resolve="elementInterface" />
@@ -293,6 +293,21 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6BM8RNMeL2a" role="PzmwI">
       <ref role="PrY4T" node="6BM8RNMeL1A" resolve="attributeInterface" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="21UGiltT4Jd">
+    <property role="EcuMT" value="2340377730419542989" />
+    <property role="3GE5qa" value="Attributes" />
+    <property role="TrG5h" value="attributedTextNode" />
+    <property role="34LRSv" value="text" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="21UGiltT4Je" role="PzmwI">
+      <ref role="PrY4T" node="6BM8RNMeL1A" resolve="attributeInterface" />
+    </node>
+    <node concept="1TJgyi" id="21UGiltT4Jg" role="1TKVEl">
+      <property role="IQ2nx" value="2340377730419542992" />
+      <property role="TrG5h" value="val" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>
