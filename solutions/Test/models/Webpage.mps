@@ -36,6 +36,9 @@
       <concept id="7634203337893285979" name="HTMLmodel.structure.headNode" flags="ng" index="2rMjcB">
         <child id="7634203337893286010" name="metadata" index="2rMjc6" />
       </concept>
+      <concept id="4527191513799611339" name="HTMLmodel.structure.aNode" flags="ng" index="$SSdT">
+        <reference id="4527191513799646199" name="href" index="$SKH5" />
+      </concept>
       <concept id="4527191513799242107" name="HTMLmodel.structure.webpageReferenceNode" flags="ng" index="$Ym79">
         <reference id="4527191513799242108" name="webpage" index="$Ym7e" />
       </concept>
@@ -82,6 +85,9 @@
       </node>
     </node>
     <node concept="2rMjcz" id="21UGiltQ_Id" role="2rMjc9">
+      <node concept="$SSdT" id="3VjOb8qcwAQ" role="2rMjfn">
+        <ref role="$SKH5" node="3VjOb8qab8T" resolve="test2" />
+      </node>
       <node concept="2rMjcn" id="21UGiltQ_Ih" role="2rMjfn">
         <node concept="2rMjci" id="21UGiltQ_Ik" role="2rMjfi">
           <property role="2rMjfk" value="hi" />

@@ -12,6 +12,7 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder2;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
+  /*package*/ final ConceptDescriptor myConceptaNode = createDescriptorForaNode();
   /*package*/ final ConceptDescriptor myConceptattributeInterface = createDescriptorForattributeInterface();
   /*package*/ final ConceptDescriptor myConceptbodyNode = createDescriptorForbodyNode();
   /*package*/ final ConceptDescriptor myConceptclassNode = createDescriptorForclassNode();
@@ -40,13 +41,15 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptattributeInterface, myConceptbodyNode, myConceptclassNode, myConceptdivNode, myConceptelementInterface, myConceptheadNode, myConcepthrefNode, myConceptidNode, myConceptlinkNode, myConceptmetadataInterface, myConceptnewlineNode, myConceptpNode, myConceptrelNode, myConceptstyleNode, myConcepttextNode, myConcepttitleNode, myConcepttypeNode, myConceptwebpageNode, myConceptwebpageReferenceNode, myConceptwebsiteNode);
+    return Arrays.asList(myConceptaNode, myConceptattributeInterface, myConceptbodyNode, myConceptclassNode, myConceptdivNode, myConceptelementInterface, myConceptheadNode, myConcepthrefNode, myConceptidNode, myConceptlinkNode, myConceptmetadataInterface, myConceptnewlineNode, myConceptpNode, myConceptrelNode, myConceptstyleNode, myConcepttextNode, myConcepttitleNode, myConcepttypeNode, myConceptwebpageNode, myConceptwebpageReferenceNode, myConceptwebsiteNode);
   }
 
   @Override
   @Nullable
   public ConceptDescriptor getDescriptor(SConceptId id) {
     switch (myConceptIndex.index(id)) {
+      case LanguageConceptSwitch.aNode:
+        return myConceptaNode;
       case LanguageConceptSwitch.attributeInterface:
         return myConceptattributeInterface;
       case LanguageConceptSwitch.bodyNode:
@@ -96,6 +99,16 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     return myConceptIndex.index(c);
   }
 
+  private static ConceptDescriptor createDescriptorForaNode() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("HTMLmodel", "aNode", 0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x3ed3d0b21a3053cbL);
+    b.class_(false, false, false);
+    b.parent(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b106aL);
+    b.origin("r:2f44e61d-11b9-4283-84e2-b50d2d76e6ff(HTMLmodel.structure)/4527191513799611339");
+    b.associate("href", 0x3ed3d0b21a30dbf7L).target(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b0fbeL).optional(true).origin("4527191513799646199").done();
+    b.aggregate("elements", 0x3ed3d0b21a329819L).target(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b106aL).optional(true).ordered(true).multiple(true).origin("4527191513799759897").done();
+    b.alias("a");
+    return b.create();
+  }
   private static ConceptDescriptor createDescriptorForattributeInterface() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("HTMLmodel", "attributeInterface", 0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b1066L);
     b.interface_();
