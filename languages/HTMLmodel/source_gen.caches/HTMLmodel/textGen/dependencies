@@ -10,7 +10,6 @@
     <classNode dependClassName="HTMLmodel.textGen.hrefNode_TextGen" />
     <classNode dependClassName="HTMLmodel.textGen.idNode_TextGen" />
     <classNode dependClassName="HTMLmodel.textGen.linkNode_TextGen" />
-    <classNode dependClassName="HTMLmodel.textGen.newlineNode_TextGen" />
     <classNode dependClassName="HTMLmodel.textGen.pNode_TextGen" />
     <classNode dependClassName="HTMLmodel.textGen.relNode_TextGen" />
     <classNode dependClassName="HTMLmodel.textGen.styleNode_TextGen" />
@@ -108,12 +107,6 @@
     <classNode dependClassName="jetbrains.mps.text.impl.TextGenSupport" />
     <classNode dependClassName="jetbrains.mps.text.rt.TextGenContext" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
-    <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
-  </dependency>
-  <dependency className="HTMLmodel.textGen.newlineNode_TextGen" file="newlineNode_TextGen.java">
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="jetbrains.mps.text.impl.TextGenSupport" />
-    <classNode dependClassName="jetbrains.mps.text.rt.TextGenContext" />
     <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
   </dependency>
   <dependency className="HTMLmodel.textGen.pNode_TextGen" file="pNode_TextGen.java">

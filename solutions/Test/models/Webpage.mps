@@ -11,8 +11,12 @@
         <child id="7634203337893286005" name="body" index="2rMjc9" />
         <child id="7634203337893286002" name="head" index="2rMjce" />
       </concept>
+      <concept id="7634203337893286000" name="HTMLmodel.structure.textNode" flags="ng" index="2rMjcc">
+        <property id="3782099121805282035" name="name" index="3gYvRJ" />
+      </concept>
       <concept id="7634203337893285996" name="HTMLmodel.structure.pNode" flags="ng" index="2rMjcg">
         <child id="7634203337893286088" name="attributes" index="2rMjeO" />
+        <child id="3782099121805307101" name="text" index="3gYhJ1" />
       </concept>
       <concept id="7634203337893285998" name="HTMLmodel.structure.classNode" flags="ng" index="2rMjci" />
       <concept id="7634203337893285999" name="HTMLmodel.structure.idNode" flags="ng" index="2rMjcj" />
@@ -39,6 +43,7 @@
       </concept>
       <concept id="4527191513799611339" name="HTMLmodel.structure.aNode" flags="ng" index="$SSdT">
         <reference id="4527191513799646199" name="href" index="$SKH5" />
+        <child id="4527191513799759897" name="elements" index="$SkyF" />
       </concept>
       <concept id="4527191513799242107" name="HTMLmodel.structure.webpageReferenceNode" flags="ng" index="$Ym79">
         <reference id="4527191513799242108" name="webpage" index="$Ym7e" />
@@ -109,6 +114,9 @@
   </node>
   <node concept="$YnpU" id="3VjOb8qaNr7">
     <property role="TrG5h" value="mywebsite" />
+    <node concept="$Ym79" id="1eqhICkO2K_" role="$Ym7d">
+      <ref role="$Ym7e" node="1eqhICkKZ1C" resolve="test3" />
+    </node>
     <node concept="$Ym79" id="3VjOb8qaNr8" role="$Ym7d">
       <ref role="$Ym7e" node="3VjOb8qab8T" resolve="test2" />
     </node>
@@ -118,7 +126,48 @@
   </node>
   <node concept="2rMiN2" id="1eqhICkKZ1C">
     <property role="TrG5h" value="test3" />
-    <node concept="2rMjcz" id="1eqhICkKZ1D" role="2rMjc9" />
+    <node concept="2rMjcB" id="1eqhICkLUYR" role="2rMjce">
+      <node concept="2rMjcp" id="1eqhICkLUZ1" role="2rMjc6">
+        <node concept="2rMjck" id="1eqhICkNlWz" role="2rMjfJ">
+          <property role="2rMjfk" value="some/file" />
+        </node>
+      </node>
+      <node concept="2rMjct" id="1eqhICkNlWF" role="2rMjc6">
+        <property role="2rMjcu" value="Home Page" />
+      </node>
+    </node>
+    <node concept="2rMjcz" id="1eqhICkMMiY" role="2rMjc9">
+      <node concept="$SSdT" id="1eqhICkNGp$" role="2rMjfn">
+        <ref role="$SKH5" node="6BM8RNMeOPK" resolve="test" />
+        <node concept="2rMjcg" id="1eqhICkNGpJ" role="$SkyF">
+          <node concept="2rMjcc" id="1eqhICkNGpL" role="3gYhJ1">
+            <property role="3gYvRJ" value="This is a link" />
+          </node>
+        </node>
+      </node>
+      <node concept="2rMjcc" id="1eqhICkNlWU" role="2rMjfn">
+        <property role="3gYvRJ" value="This is some text here" />
+      </node>
+      <node concept="2rMjcn" id="1eqhICkNaO7" role="2rMjfn">
+        <node concept="2rMjci" id="1eqhICkNaOc" role="2rMjfi">
+          <property role="2rMjfk" value="hello" />
+        </node>
+        <node concept="2rMjcc" id="1eqhICkNaOe" role="2rMjfd">
+          <property role="3gYvRJ" value="This is some div text" />
+        </node>
+        <node concept="2rMjcg" id="1eqhICkNaOj" role="2rMjfd">
+          <node concept="2rMjci" id="1eqhICkNlWc" role="2rMjeO">
+            <property role="2rMjfk" value="paragraph" />
+          </node>
+          <node concept="2rMjcc" id="1eqhICkNlWe" role="3gYhJ1">
+            <property role="3gYvRJ" value="This is some text" />
+          </node>
+        </node>
+      </node>
+      <node concept="2rMjcc" id="1eqhICkMXqB" role="2rMjfn">
+        <property role="3gYvRJ" value="Hello this is some body text" />
+      </node>
+    </node>
   </node>
 </model>
 

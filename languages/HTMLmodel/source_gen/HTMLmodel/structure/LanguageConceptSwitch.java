@@ -20,16 +20,15 @@ public final class LanguageConceptSwitch {
   public static final int idNode = 8;
   public static final int linkNode = 9;
   public static final int metadataInterface = 10;
-  public static final int newlineNode = 11;
-  public static final int pNode = 12;
-  public static final int relNode = 13;
-  public static final int styleNode = 14;
-  public static final int textNode = 15;
-  public static final int titleNode = 16;
-  public static final int typeNode = 17;
-  public static final int webpageNode = 18;
-  public static final int webpageReferenceNode = 19;
-  public static final int websiteNode = 20;
+  public static final int pNode = 11;
+  public static final int relNode = 12;
+  public static final int styleNode = 13;
+  public static final int textNode = 14;
+  public static final int titleNode = 15;
+  public static final int typeNode = 16;
+  public static final int webpageNode = 17;
+  public static final int webpageReferenceNode = 18;
+  public static final int websiteNode = 19;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL);
@@ -44,7 +43,6 @@ public final class LanguageConceptSwitch {
     builder.put(0x69f2237cf23b106fL, idNode);
     builder.put(0x69f2237cf23b1065L, linkNode);
     builder.put(0x69f2237cf23b1060L, metadataInterface);
-    builder.put(0x69f2237cf23b1071L, newlineNode);
     builder.put(0x69f2237cf23b106cL, pNode);
     builder.put(0x69f2237cf23b1067L, relNode);
     builder.put(0x69f2237cf23b106dL, styleNode);

@@ -42,7 +42,6 @@ import jetbrains.mps.nodeEditor.EditorManager;
     editorCell.setCellContext(getCellFactory().getCellContext());
     Style style = new StyleImpl();
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
-    style.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
     style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, true);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(createProperty_etgrr2_a0());

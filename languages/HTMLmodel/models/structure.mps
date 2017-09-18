@@ -272,7 +272,7 @@
     <property role="EcuMT" value="7634203337893286000" />
     <property role="TrG5h" value="textNode" />
     <property role="34LRSv" value="text" />
-    <property role="3GE5qa" value="Attributes" />
+    <property role="3GE5qa" value="Elements" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3hWHLN$x5M1" role="PzmwI">
       <ref role="PrY4T" node="6BM8RNMeL1E" resolve="elementInterface" />
@@ -281,15 +281,6 @@
       <property role="IQ2nx" value="3782099121805282035" />
       <property role="TrG5h" value="name" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="6BM8RNMeL1L">
-    <property role="EcuMT" value="7634203337893286001" />
-    <property role="TrG5h" value="newlineNode" />
-    <property role="3GE5qa" value="Attributes" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="6BM8RNMeL2a" role="PzmwI">
-      <ref role="PrY4T" node="6BM8RNMeL1A" resolve="attributeInterface" />
     </node>
   </node>
   <node concept="1TIwiD" id="3VjOb8qaEr8">

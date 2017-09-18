@@ -20,7 +20,6 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private final ConceptPresentation props_idNode = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_linkNode = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_metadataInterface = new ConceptPresentationBuilder().create();
-  private final ConceptPresentation props_newlineNode = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_pNode = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_relNode = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_styleNode = new ConceptPresentationBuilder().create();
@@ -58,8 +57,6 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
         return props_linkNode;
       case LanguageConceptSwitch.metadataInterface:
         return props_metadataInterface;
-      case LanguageConceptSwitch.newlineNode:
-        return props_newlineNode;
       case LanguageConceptSwitch.pNode:
         return props_pNode;
       case LanguageConceptSwitch.relNode:
