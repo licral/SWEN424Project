@@ -9,6 +9,7 @@ import org.jetbrains.annotations.Nullable;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
+  private final ConceptPresentation props_aNode = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_attributeInterface = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_attributedTextNode = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_bodyNode = new ConceptPresentationBuilder().create();
@@ -28,12 +29,16 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private final ConceptPresentation props_titleNode = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_typeNode = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_webpageNode = new ConceptPresentationBuilder().create();
+  private final ConceptPresentation props_webpageReferenceNode = new ConceptPresentationBuilder().create();
+  private final ConceptPresentation props_websiteNode = new ConceptPresentationBuilder().create();
 
   @Override
   @Nullable
   public ConceptPresentation getDescriptor(SAbstractConcept c) {
     StructureAspectDescriptor structureDescriptor = (StructureAspectDescriptor) myLanguageRuntime.getAspect(jetbrains.mps.smodel.runtime.StructureAspectDescriptor.class);
     switch (structureDescriptor.internalIndex(c)) {
+      case LanguageConceptSwitch.aNode:
+        return props_aNode;
       case LanguageConceptSwitch.attributeInterface:
         return props_attributeInterface;
       case LanguageConceptSwitch.attributedTextNode:
@@ -72,6 +77,10 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
         return props_typeNode;
       case LanguageConceptSwitch.webpageNode:
         return props_webpageNode;
+      case LanguageConceptSwitch.webpageReferenceNode:
+        return props_webpageReferenceNode;
+      case LanguageConceptSwitch.websiteNode:
+        return props_websiteNode;
     }
     return null;
   }

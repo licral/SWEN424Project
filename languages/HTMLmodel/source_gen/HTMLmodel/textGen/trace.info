@@ -7,33 +7,37 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
   <root>
     <file name="TextGenAspectDescriptor.java">
-      <unit at="16,0,78,0" name="HTMLmodel.textGen.TextGenAspectDescriptor" />
+      <unit at="16,0,80,0" name="HTMLmodel.textGen.TextGenAspectDescriptor" />
     </file>
   </root>
   <root nodeRef="r:f717867b-83b1-4342-8a5a-2ae9752c5e1f(HTMLmodel.textGen)/3782099121804226332">
     <file name="TextGenAspectDescriptor.java">
-      <node id="3782099121805112877" at="71,61,72,171" concept="4" />
-      <node id="3782099121804248117" at="74,66,75,18" concept="4" />
+      <node id="3782099121805112877" at="73,61,74,161" concept="4" />
+      <node id="3782099121804248117" at="76,66,77,18" concept="4" />
     </file>
     <file name="webpageNode_TextGen.java">
       <node id="3782099121804226332" at="13,54,14,55" concept="3" />
       <node id="3782099121804226332" at="14,55,15,25" concept="0" />
       <node id="3782099121804226332" at="15,25,16,18" concept="0" />
       <node id="3782099121804226332" at="16,18,17,44" concept="0" />
-      <node id="3782099121804226332" at="17,44,18,200" concept="0" />
-      <node id="3782099121804226332" at="18,200,19,18" concept="0" />
-      <node id="3782099121804226332" at="19,18,20,200" concept="0" />
-      <node id="3782099121804226332" at="20,200,21,18" concept="0" />
-      <node id="3782099121804226332" at="21,18,22,44" concept="0" />
-      <node id="3782099121804507443" at="22,44,23,26" concept="0" />
-      <node id="3782099121804226332" at="12,0,25,0" concept="2" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
-      <scope id="3782099121804226332" at="13,54,23,26">
+      <node id="4527191513799149806" at="18,200,19,202" concept="0" />
+      <node id="4527191513799149806" at="19,202,20,20" concept="0" />
+      <node id="4527191513799157587" at="22,200,23,202" concept="0" />
+      <node id="4527191513799157587" at="23,202,24,20" concept="0" />
+      <node id="3782099121804226332" at="25,5,26,44" concept="0" />
+      <node id="3782099121804507443" at="26,44,27,26" concept="0" />
+      <node id="4527191513799149804" at="17,44,21,5" concept="1" />
+      <node id="4527191513799157585" at="21,5,25,5" concept="1" />
+      <node id="3782099121804226332" at="12,0,29,0" concept="2" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="4527191513799149806" at="18,200,20,20" />
+      <scope id="4527191513799157587" at="22,200,24,20" />
+      <scope id="3782099121804226332" at="13,54,27,26">
         <var name="tgs" id="3782099121804226332" />
       </scope>
-      <scope id="3782099121804226332" at="12,0,25,0">
+      <scope id="3782099121804226332" at="12,0,29,0">
         <var name="ctx" id="3782099121804226332" />
       </scope>
-      <unit id="3782099121804226332" at="11,0,26,0" name="HTMLmodel.textGen.webpageNode_TextGen" />
+      <unit id="3782099121804226332" at="11,0,30,0" name="HTMLmodel.textGen.webpageNode_TextGen" />
     </file>
   </root>
   <root nodeRef="r:f717867b-83b1-4342-8a5a-2ae9752c5e1f(HTMLmodel.textGen)/3782099121804313368">
@@ -321,6 +325,41 @@
         <var name="ctx" id="3782099121805766626" />
       </scope>
       <unit id="3782099121805766626" at="11,0,28,0" name="HTMLmodel.textGen.pNode_TextGen" />
+    </file>
+  </root>
+  <root nodeRef="r:f717867b-83b1-4342-8a5a-2ae9752c5e1f(HTMLmodel.textGen)/4527191513799759872">
+    <file name="aNode_TextGen.java">
+      <node id="4527191513799759872" at="17,54,18,55" concept="3" />
+      <node id="4527191513799760597" at="18,55,19,17" concept="0" />
+      <node id="4527191513799760650" at="19,17,20,21" concept="0" />
+      <node id="4527191513799760947" at="21,198,22,29" concept="0" />
+      <node id="4527191513799760947" at="22,29,23,341" concept="0" />
+      <node id="4527191513799760947" at="23,341,24,28" concept="0" />
+      <node id="4527191513799759872" at="25,5,26,20" concept="0" />
+      <node id="4527191513799759872" at="26,20,27,18" concept="0" />
+      <node id="4527191513799759872" at="27,18,28,44" concept="0" />
+      <node id="4527191513799794691" at="30,40,31,32" concept="0" />
+      <node id="4527191513799794691" at="31,32,32,22" concept="0" />
+      <node id="4527191513799759872" at="34,7,35,44" concept="0" />
+      <node id="4527191513799798128" at="35,44,36,17" concept="0" />
+      <node id="4527191513799799422" at="36,17,37,23" concept="0" />
+      <node id="4527191513799794690" at="30,0,34,0" concept="2" trace="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="4527191513799760945" at="20,21,25,5" concept="1" />
+      <node id="4527191513799773171" at="28,44,34,7" concept="0" />
+      <node id="4527191513799759872" at="16,0,39,0" concept="2" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="4527191513799794691" at="30,40,32,22" />
+      <scope id="4527191513799760947" at="21,198,24,28" />
+      <scope id="4527191513799794690" at="30,0,34,0">
+        <var name="element" id="4527191513799794690" />
+      </scope>
+      <scope id="4527191513799759872" at="17,54,37,23">
+        <var name="tgs" id="4527191513799759872" />
+      </scope>
+      <scope id="4527191513799759872" at="16,0,39,0">
+        <var name="ctx" id="4527191513799759872" />
+      </scope>
+      <unit id="4527191513799794690" at="29,226,34,5" name="HTMLmodel.textGen.aNode_TextGen$1" />
+      <unit id="4527191513799759872" at="15,0,40,0" name="HTMLmodel.textGen.aNode_TextGen" />
     </file>
   </root>
 </debug-info>

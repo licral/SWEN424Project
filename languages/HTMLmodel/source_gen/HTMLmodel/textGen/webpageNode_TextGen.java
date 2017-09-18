@@ -15,10 +15,14 @@ public class webpageNode_TextGen extends TextGenDescriptorBase {
     tgs.append("<html>");
     tgs.newLine();
     ctx.getBuffer().area().increaseIndent();
-    tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b0fbeL, 0x69f2237cf23b1072L, "head")));
-    tgs.newLine();
-    tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b0fbeL, 0x69f2237cf23b1075L, "body")));
-    tgs.newLine();
+    if ((SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b0fbeL, 0x69f2237cf23b1072L, "head")) != null)) {
+      tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b0fbeL, 0x69f2237cf23b1072L, "head")));
+      tgs.newLine();
+    }
+    if ((SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b0fbeL, 0x69f2237cf23b1075L, "body")) != null)) {
+      tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b0fbeL, 0x69f2237cf23b1075L, "body")));
+      tgs.newLine();
+    }
     ctx.getBuffer().area().decreaseIndent();
     tgs.append("</html>");
   }

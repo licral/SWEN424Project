@@ -10,6 +10,9 @@ import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
+import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
+import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
+import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.SingleRoleCellProvider;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -47,8 +50,9 @@ import jetbrains.mps.openapi.editor.menus.transformation.SNodeLocation;
     editorCell.setBig(true);
     editorCell.setCellContext(getCellFactory().getCellContext());
     editorCell.addEditorCell(createConstant_qfbt4z_a0());
-    editorCell.addEditorCell(createRefNode_qfbt4z_b0());
+    editorCell.addEditorCell(createProperty_qfbt4z_b0());
     editorCell.addEditorCell(createRefNode_qfbt4z_c0());
+    editorCell.addEditorCell(createRefNode_qfbt4z_d0());
     return editorCell;
   }
   private EditorCell createConstant_qfbt4z_a0() {
@@ -57,15 +61,30 @@ import jetbrains.mps.openapi.editor.menus.transformation.SNodeLocation;
     editorCell.setDefaultText("");
     return editorCell;
   }
-  private EditorCell createRefNode_qfbt4z_b0() {
-    SingleRoleCellProvider provider = new webpageNode_EditorBuilder_a.headSingleRoleHandler_qfbt4z_b0(myNode, MetaAdapterFactory.getContainmentLink(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b0fbeL, 0x69f2237cf23b1072L, "head"), getEditorContext());
+  private EditorCell createProperty_qfbt4z_b0() {
+    CellProviderWithRole provider = new PropertyCellProvider(myNode, getEditorContext());
+    provider.setRole("name");
+    provider.setNoTargetText("<no name>");
+    EditorCell editorCell;
+    editorCell = provider.createEditorCell(getEditorContext());
+    editorCell.setCellId("property_name");
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    SNode attributeConcept = provider.getRoleAttribute();
+    if (attributeConcept != null) {
+      EditorManager manager = EditorManager.getInstanceFromContext(getEditorContext());
+      return manager.createNodeRoleAttributeCell(attributeConcept, provider.getRoleAttributeKind(), editorCell);
+    } else
+    return editorCell;
+  }
+  private EditorCell createRefNode_qfbt4z_c0() {
+    SingleRoleCellProvider provider = new webpageNode_EditorBuilder_a.headSingleRoleHandler_qfbt4z_c0(myNode, MetaAdapterFactory.getContainmentLink(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b0fbeL, 0x69f2237cf23b1072L, "head"), getEditorContext());
     return provider.createCell();
   }
-  private static class headSingleRoleHandler_qfbt4z_b0 extends SingleRoleCellProvider {
+  private static class headSingleRoleHandler_qfbt4z_c0 extends SingleRoleCellProvider {
     @NotNull
     private SNode myNode;
 
-    public headSingleRoleHandler_qfbt4z_b0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
+    public headSingleRoleHandler_qfbt4z_c0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
       super(containmentLink, context);
       myNode = ownerNode;
     }
@@ -116,15 +135,15 @@ import jetbrains.mps.openapi.editor.menus.transformation.SNodeLocation;
       return "<no head>";
     }
   }
-  private EditorCell createRefNode_qfbt4z_c0() {
-    SingleRoleCellProvider provider = new webpageNode_EditorBuilder_a.bodySingleRoleHandler_qfbt4z_c0(myNode, MetaAdapterFactory.getContainmentLink(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b0fbeL, 0x69f2237cf23b1075L, "body"), getEditorContext());
+  private EditorCell createRefNode_qfbt4z_d0() {
+    SingleRoleCellProvider provider = new webpageNode_EditorBuilder_a.bodySingleRoleHandler_qfbt4z_d0(myNode, MetaAdapterFactory.getContainmentLink(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b0fbeL, 0x69f2237cf23b1075L, "body"), getEditorContext());
     return provider.createCell();
   }
-  private static class bodySingleRoleHandler_qfbt4z_c0 extends SingleRoleCellProvider {
+  private static class bodySingleRoleHandler_qfbt4z_d0 extends SingleRoleCellProvider {
     @NotNull
     private SNode myNode;
 
-    public bodySingleRoleHandler_qfbt4z_c0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
+    public bodySingleRoleHandler_qfbt4z_d0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
       super(containmentLink, context);
       myNode = ownerNode;
     }
