@@ -14,10 +14,13 @@
       <concept id="7634203337893286000" name="HTMLmodel.structure.textNode" flags="ng" index="2rMjcc">
         <property id="3782099121805282035" name="name" index="3gYvRJ" />
       </concept>
-      <concept id="7634203337893286001" name="HTMLmodel.structure.newlineNode" flags="ng" index="2rMjcd" />
       <concept id="7634203337893285996" name="HTMLmodel.structure.pNode" flags="ng" index="2rMjcg">
         <child id="7634203337893286088" name="attributes" index="2rMjeO" />
         <child id="3782099121805307101" name="text" index="3gYhJ1" />
+      </concept>
+      <concept id="7634203337893285997" name="HTMLmodel.structure.styleNode" flags="ng" index="2rMjch">
+        <property id="2340377730418790765" name="value" index="1XCA18" />
+        <property id="2340377730418790763" name="property" index="1XCA1e" />
       </concept>
       <concept id="7634203337893285998" name="HTMLmodel.structure.classNode" flags="ng" index="2rMjci" />
       <concept id="7634203337893285999" name="HTMLmodel.structure.idNode" flags="ng" index="2rMjcj" />
@@ -38,7 +41,6 @@
       </concept>
       <concept id="7634203337893285983" name="HTMLmodel.structure.bodyNode" flags="ng" index="2rMjcz">
         <child id="7634203337893286059" name="elements" index="2rMjfn" />
-        <child id="3728666844744046246" name="text" index="1t03gr" />
       </concept>
       <concept id="7634203337893285979" name="HTMLmodel.structure.headNode" flags="ng" index="2rMjcB">
         <child id="7634203337893286010" name="metadata" index="2rMjc6" />
@@ -92,48 +94,74 @@
         </node>
       </node>
     </node>
-    <node concept="2rMjcz" id="3eYSFPILBUu" role="2rMjc9">
-      <node concept="2rMjcc" id="3eYSFPILBUw" role="1t03gr">
-        <property role="3gYvRJ" value="BODY TEXT" />
-      </node>
-      <node concept="2rMjcn" id="3eYSFPIP212" role="2rMjfn">
-        <node concept="2rMjcj" id="3eYSFPIPcR4" role="2rMjfi">
+    <node concept="2rMjcz" id="3V1yADd0n5U" role="2rMjc9">
+      <node concept="2rMjcn" id="3V1yADd0n5Y" role="2rMjfn">
+        <node concept="2rMjcj" id="3V1yADd0x6s" role="2rMjfi">
           <property role="2rMjfk" value="div1" />
         </node>
-        <node concept="2rMjcn" id="3eYSFPIPcR6" role="2rMjfd">
-          <node concept="2rMjcj" id="3eYSFPIPcR8" role="2rMjfi">
+        <node concept="2rMjcn" id="3V1yADd0x6u" role="2rMjfd">
+          <node concept="2rMjcj" id="3V1yADd0x6w" role="2rMjfi">
             <property role="2rMjfk" value="div2" />
           </node>
-          <node concept="2rMjcc" id="3eYSFPIPcRa" role="2rMjfd">
-            <property role="3gYvRJ" value="DIV2 TEXT" />
+          <node concept="2rMjcc" id="3V1yADd0x6y" role="2rMjfd">
+            <property role="3gYvRJ" value="text in div 2" />
+          </node>
+        </node>
+        <node concept="2rMjcc" id="3V1yADd0Pcj" role="2rMjfd">
+          <property role="3gYvRJ" value="text in div1" />
+        </node>
+      </node>
+      <node concept="2rMjcg" id="3V1yADd0x6V" role="2rMjfn">
+        <node concept="2rMjcj" id="3V1yADd0x74" role="2rMjeO">
+          <property role="2rMjfk" value="p1" />
+        </node>
+        <node concept="2rMjcc" id="3V1yADd0FaI" role="3gYhJ1">
+          <property role="3gYvRJ" value="text inside p1" />
+        </node>
+      </node>
+      <node concept="2rMjcc" id="3V1yADd0PbJ" role="2rMjfn">
+        <property role="3gYvRJ" value="text in body" />
+      </node>
+      <node concept="$SSdT" id="3V1yADd0x83" role="2rMjfn">
+        <ref role="$SKH5" node="6BM8RNMeOPK" resolve="test" />
+        <node concept="2rMjcn" id="3V1yADd0x8f" role="$SkyF">
+          <node concept="2rMjcj" id="3V1yADd0x8h" role="2rMjfi">
+            <property role="2rMjfk" value="div inside a" />
+          </node>
+          <node concept="2rMjcc" id="3V1yADd0x8j" role="2rMjfd">
+            <property role="3gYvRJ" value="this is the text inside div in a" />
           </node>
         </node>
       </node>
-      <node concept="2rMjcc" id="3eYSFPIPcSl" role="2rMjfn">
-        <property role="3gYvRJ" value="DIV 1 TEXT" />
+      <node concept="2rMjcc" id="3V1yADd0x8$" role="2rMjfn">
+        <property role="3gYvRJ" value="text in body" />
       </node>
-      <node concept="2rMjcg" id="3eYSFPILBUy" role="2rMjfn">
-        <node concept="2rMjcj" id="3eYSFPILBUE" role="2rMjeO">
-          <property role="2rMjfk" value="asa" />
+      <node concept="2rMjcn" id="3V1yADd0PcE" role="2rMjfn">
+        <node concept="2rMjch" id="3V1yADd0PcW" role="2rMjfi">
+          <property role="1XCA1e" value="color" />
+          <property role="1XCA18" value="blue" />
         </node>
-        <node concept="2rMjcc" id="3eYSFPILWJC" role="3gYhJ1">
-          <property role="3gYvRJ" value="P TEXT" />
+        <node concept="$SSdT" id="3V1yADd0PgC" role="2rMjfd">
+          <ref role="$SKH5" node="3VjOb8qab8T" resolve="test2" />
+          <node concept="2rMjcg" id="3V1yADd1jkp" role="$SkyF">
+            <node concept="2rMjcj" id="3V1yADd1jkr" role="2rMjeO">
+              <property role="2rMjfk" value="href p" />
+            </node>
+            <node concept="2rMjcc" id="3V1yADd1jkt" role="3gYhJ1">
+              <property role="3gYvRJ" value="p href text" />
+            </node>
+          </node>
         </node>
-      </node>
-      <node concept="$SSdT" id="3eYSFPILBVV" role="2rMjfn">
-        <ref role="$SKH5" node="3VjOb8qab8T" resolve="test2" />
-        <node concept="2rMjcc" id="3eYSFPILBW8" role="$SkyF">
-          <property role="3gYvRJ" value="ANODE TEXT" />
+        <node concept="2rMjcg" id="3V1yADd0Pd8" role="2rMjfd">
+          <node concept="2rMjcj" id="3V1yADd0Pda" role="2rMjeO">
+            <property role="2rMjfk" value="p id" />
+          </node>
+          <node concept="2rMjcc" id="3V1yADd1jjg" role="3gYhJ1">
+            <property role="3gYvRJ" value="text p id" />
+          </node>
         </node>
       </node>
     </node>
-    <node concept="2rMjcd" id="3eYSFPIMw22" role="2rMjc9" />
-    <node concept="2rMjcd" id="3eYSFPIMw1J" role="2rMjc9" />
-    <node concept="2rMjcd" id="3eYSFPIMw1t" role="2rMjc9" />
-    <node concept="2rMjcd" id="3eYSFPIMw1c" role="2rMjc9" />
-    <node concept="2rMjcd" id="3eYSFPIMw0W" role="2rMjc9" />
-    <node concept="2rMjcd" id="3eYSFPIMw0H" role="2rMjc9" />
-    <node concept="2rMjcd" id="3eYSFPIMw0v" role="2rMjc9" />
   </node>
   <node concept="$YnpU" id="3VjOb8qaNr7">
     <property role="TrG5h" value="mywebsite" />
