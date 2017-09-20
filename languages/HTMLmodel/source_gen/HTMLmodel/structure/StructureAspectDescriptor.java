@@ -243,6 +243,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("HTMLmodel", "webpageNode", 0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b0fbeL);
     b.class_(false, false, true);
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x33d23ee961a0cbf3L);
     b.origin("r:2f44e61d-11b9-4283-84e2-b50d2d76e6ff(HTMLmodel.structure)/7634203337893285822");
     b.aggregate("head", 0x69f2237cf23b1072L).target(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b105bL).optional(true).ordered(true).multiple(false).origin("7634203337893286002").done();
     b.aggregate("body", 0x69f2237cf23b1075L).target(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b105fL).optional(true).ordered(true).multiple(false).origin("7634203337893286005").done();
