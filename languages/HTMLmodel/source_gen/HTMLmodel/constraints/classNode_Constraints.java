@@ -37,7 +37,6 @@ public class classNode_Constraints extends BaseConstraintsDescriptor {
   }
   private static boolean staticCanBeAChild(SNode node, SNode parentNode, SAbstractConcept childConcept, SContainmentLink link) {
     return SNodeOperations.isInstanceOf(parentNode, MetaAdapterFactory.getInterfaceConcept(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b106aL, "HTMLmodel.structure.elementInterface"));
-
   }
   private static SNodePointer canBeChildBreakingPoint = new SNodePointer("r:4167242e-6a56-478f-99c7-46c05a453b44(HTMLmodel.constraints)", "4082216037532721228");
 }

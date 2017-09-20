@@ -63,19 +63,18 @@
       <node id="4082216037532721227" at="32,9,33,0" concept="6" />
       <node id="4082216037532721227" at="33,0,34,22" concept="5" />
       <node id="4082216037532721686" at="38,128,39,195" concept="5" />
-      <node id="3728666844745541943" at="39,195,40,0" concept="6" />
-      <node id="4082216037532721227" at="42,0,43,0" concept="7" trace="canBeChildBreakingPoint" />
+      <node id="4082216037532721227" at="41,0,42,0" concept="7" trace="canBeChildBreakingPoint" />
       <node id="4082216037532721227" at="19,0,22,0" concept="0" trace="classNode_Constraints#()V" />
       <node id="4082216037532721227" at="29,0,32,9" concept="2" />
-      <node id="4082216037532721227" at="38,0,42,0" concept="8" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="4082216037532721227" at="38,0,41,0" concept="8" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
       <node id="4082216037532721227" at="26,0,36,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
       <node id="4082216037532721227" at="24,103,36,6" concept="5" />
       <node id="4082216037532721227" at="23,0,38,0" concept="3" trace="calculateCanBeChildConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
       <scope id="4082216037532721227" at="19,34,20,137" />
       <scope id="4082216037532721227" at="30,55,31,71" />
-      <scope id="4082216037532721229" at="38,128,40,0" />
+      <scope id="4082216037532721229" at="38,128,39,195" />
       <scope id="4082216037532721227" at="19,0,22,0" />
-      <scope id="4082216037532721227" at="38,0,42,0">
+      <scope id="4082216037532721227" at="38,0,41,0">
         <var name="childConcept" id="4082216037532721227" />
         <var name="link" id="4082216037532721227" />
         <var name="node" id="4082216037532721227" />
@@ -91,7 +90,7 @@
       <scope id="4082216037532721227" at="24,103,36,6" />
       <scope id="4082216037532721227" at="23,0,38,0" />
       <unit id="4082216037532721227" at="25,15,36,5" name="HTMLmodel.constraints.classNode_Constraints$1" />
-      <unit id="4082216037532721227" at="18,0,44,0" name="HTMLmodel.constraints.classNode_Constraints" />
+      <unit id="4082216037532721227" at="18,0,43,0" name="HTMLmodel.constraints.classNode_Constraints" />
     </file>
   </root>
   <root nodeRef="r:4167242e-6a56-478f-99c7-46c05a453b44(HTMLmodel.constraints)/4082216037532726098">

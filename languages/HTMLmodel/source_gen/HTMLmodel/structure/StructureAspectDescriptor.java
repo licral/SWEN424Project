@@ -23,7 +23,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptidNode = createDescriptorForidNode();
   /*package*/ final ConceptDescriptor myConceptlinkNode = createDescriptorForlinkNode();
   /*package*/ final ConceptDescriptor myConceptmetadataInterface = createDescriptorFormetadataInterface();
-  /*package*/ final ConceptDescriptor myConceptnewlineNode = createDescriptorFornewlineNode();
   /*package*/ final ConceptDescriptor myConceptpNode = createDescriptorForpNode();
   /*package*/ final ConceptDescriptor myConceptrelNode = createDescriptorForrelNode();
   /*package*/ final ConceptDescriptor myConceptstyleNode = createDescriptorForstyleNode();
@@ -41,7 +40,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptaNode, myConceptattributeInterface, myConceptbodyNode, myConceptclassNode, myConceptdivNode, myConceptelementInterface, myConceptheadNode, myConcepthrefNode, myConceptidNode, myConceptlinkNode, myConceptmetadataInterface, myConceptnewlineNode, myConceptpNode, myConceptrelNode, myConceptstyleNode, myConcepttextNode, myConcepttitleNode, myConcepttypeNode, myConceptwebpageNode, myConceptwebpageReferenceNode, myConceptwebsiteNode);
+    return Arrays.asList(myConceptaNode, myConceptattributeInterface, myConceptbodyNode, myConceptclassNode, myConceptdivNode, myConceptelementInterface, myConceptheadNode, myConcepthrefNode, myConceptidNode, myConceptlinkNode, myConceptmetadataInterface, myConceptpNode, myConceptrelNode, myConceptstyleNode, myConcepttextNode, myConcepttitleNode, myConcepttypeNode, myConceptwebpageNode, myConceptwebpageReferenceNode, myConceptwebsiteNode);
   }
 
   @Override
@@ -70,8 +69,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptlinkNode;
       case LanguageConceptSwitch.metadataInterface:
         return myConceptmetadataInterface;
-      case LanguageConceptSwitch.newlineNode:
-        return myConceptnewlineNode;
       case LanguageConceptSwitch.pNode:
         return myConceptpNode;
       case LanguageConceptSwitch.relNode:
@@ -188,13 +185,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:2f44e61d-11b9-4283-84e2-b50d2d76e6ff(HTMLmodel.structure)/7634203337893285984");
     return b.create();
   }
-  private static ConceptDescriptor createDescriptorFornewlineNode() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("HTMLmodel", "newlineNode", 0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b1071L);
-    b.class_(false, false, false);
-    b.parent(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b1066L);
-    b.origin("r:2f44e61d-11b9-4283-84e2-b50d2d76e6ff(HTMLmodel.structure)/7634203337893286001");
-    return b.create();
-  }
   private static ConceptDescriptor createDescriptorForpNode() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("HTMLmodel", "pNode", 0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b106cL);
     b.class_(false, false, false);
@@ -229,7 +219,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.parent(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b106aL);
     b.origin("r:2f44e61d-11b9-4283-84e2-b50d2d76e6ff(HTMLmodel.structure)/7634203337893286000");
     b.prop("name", 0x347cb71ce4854af3L, "3782099121805282035");
-    b.aggregate("newline", 0x3ec18a6a4cf6cb51L).target(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b1071L).optional(true).ordered(true).multiple(true).origin("4522047690019097425").done();
     b.alias("text");
     return b.create();
   }
@@ -239,7 +228,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.parent(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b1060L);
     b.origin("r:2f44e61d-11b9-4283-84e2-b50d2d76e6ff(HTMLmodel.structure)/7634203337893285985");
     b.prop("name", 0x69f2237cf23b1062L, "7634203337893285986");
-    b.aggregate("attributes", 0x69f2237cf23b1084L).target(0x6f2104b7c2144023L, 0xa13f2bec55d0d35aL, 0x69f2237cf23b1066L).optional(true).ordered(true).multiple(false).origin("7634203337893286020").done();
     b.alias("title");
     return b.create();
   }

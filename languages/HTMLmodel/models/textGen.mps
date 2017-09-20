@@ -599,17 +599,6 @@
       </node>
     </node>
   </node>
-  <node concept="WtQ9Q" id="3hWHLN$yRBq">
-    <property role="3GE5qa" value="Attributes" />
-    <ref role="WuzLi" to="bhbg:6BM8RNMeL1L" resolve="newlineNode" />
-    <node concept="11bSqf" id="3hWHLN$yRBr" role="11c4hB">
-      <node concept="3clFbS" id="3hWHLN$yRBs" role="2VODD2">
-        <node concept="lc7rE" id="3hWHLN$yRBK" role="3cqZAp">
-          <node concept="l8MVK" id="3hWHLN$yRCI" role="lcghm" />
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="WtQ9Q" id="3hWHLN$zana">
     <property role="3GE5qa" value="Elements" />
     <ref role="WuzLi" to="bhbg:6BM8RNMeL1K" resolve="textNode" />

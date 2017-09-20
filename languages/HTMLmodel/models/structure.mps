@@ -119,12 +119,6 @@
     <node concept="PrWs8" id="6BM8RNMeL21" role="PzmwI">
       <ref role="PrY4T" node="6BM8RNMeL1w" resolve="metadataInterface" />
     </node>
-    <node concept="1TJgyj" id="6BM8RNMeL24" role="1TKVEi">
-      <property role="IQ2ns" value="7634203337893286020" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="attributes" />
-      <ref role="20lvS9" node="6BM8RNMeL1A" resolve="attributeInterface" />
-    </node>
   </node>
   <node concept="1TIwiD" id="6BM8RNMeL1_">
     <property role="EcuMT" value="7634203337893285989" />
@@ -288,22 +282,6 @@
       <property role="IQ2nx" value="3782099121805282035" />
       <property role="TrG5h" value="name" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyj" id="3V1yADcXGHh" role="1TKVEi">
-      <property role="IQ2ns" value="4522047690019097425" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="newline" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="6BM8RNMeL1L" resolve="newlineNode" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="6BM8RNMeL1L">
-    <property role="EcuMT" value="7634203337893286001" />
-    <property role="TrG5h" value="newlineNode" />
-    <property role="3GE5qa" value="Attributes" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="6BM8RNMeL2a" role="PzmwI">
-      <ref role="PrY4T" node="6BM8RNMeL1A" resolve="attributeInterface" />
     </node>
   </node>
   <node concept="1TIwiD" id="3VjOb8qaEr8">

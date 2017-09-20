@@ -21,7 +21,6 @@
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
-      <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
@@ -139,7 +138,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="3eYSFPIPq$R" role="3cqZAp" />
       </node>
     </node>
   </node>
@@ -167,11 +165,11 @@
     <node concept="9S07l" id="3yAWtIdyCpq" role="9Vyp8">
       <node concept="3clFbS" id="3yAWtIdyCpr" role="2VODD2">
         <node concept="3clFbF" id="3yAWtIdyCw$" role="3cqZAp">
-          <node concept="22lmx$" id="3eYSFPIJT2U" role="3clFbG">
-            <node concept="2OqwBi" id="3eYSFPIJTob" role="3uHU7w">
-              <node concept="nLn13" id="3eYSFPIJTcl" role="2Oq$k0" />
-              <node concept="1mIQ4w" id="3eYSFPIJTNL" role="2OqNvi">
-                <node concept="chp4Y" id="3eYSFPIJU0G" role="cj9EA">
+          <node concept="22lmx$" id="1eqhICkLVwa" role="3clFbG">
+            <node concept="2OqwBi" id="1eqhICkLVUy" role="3uHU7w">
+              <node concept="nLn13" id="1eqhICkLVD_" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="1eqhICkLWm8" role="2OqNvi">
+                <node concept="chp4Y" id="1eqhICkLWz3" role="cj9EA">
                   <ref role="cht4Q" to="bhbg:6BM8RNMeL1v" resolve="bodyNode" />
                 </node>
               </node>

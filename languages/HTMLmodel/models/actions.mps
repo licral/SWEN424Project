@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:54df3688-43f2-4055-9322-7f42ae858bf2(HTMLmodel.actions)">
+<model ref="r:ba0dde91-b9b4-4f39-8d9e-16d901b1608e(HTMLmodel.actions)">
   <persistence version="9" />
   <languages>
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
